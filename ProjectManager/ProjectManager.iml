@@ -26,5 +26,16 @@
         <jarDirectory url="file://$USER_HOME$/Downloads/httpcomponents-client-4.5.3-bin.tar/httpcomponents-client-4.5.3-bin/httpcomponents-client-4.5.3/lib" recursive="false" />
       </library>
     </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/java-json.jar/java-json.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/Downloads/java-json.jar/java-json.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
   </component>
 </module>
