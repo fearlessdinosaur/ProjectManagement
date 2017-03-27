@@ -8,7 +8,14 @@ public class Main {
     public static void main(String Args[])
     {
         Client client = new Client();
-        client.post();
+        try
+        {
+            client.post();
+        }
+        catch(Exception e)
+        {
+
+        }
     }
 
 }
