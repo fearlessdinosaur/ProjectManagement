@@ -40,7 +40,7 @@ class Server(BaseHTTPRequestHandler):
 def run():
     print('starting server...')
 
-    server_address = ('147.252.136.126', 8081)
+    server_address = ('192.168.1.15', 8081)
     httpd = HTTPServer(server_address, Server)
     print('running server...')
     httpd.serve_forever()
