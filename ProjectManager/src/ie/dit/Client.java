@@ -1,5 +1,6 @@
 package ie.dit;
-
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
@@ -21,11 +22,11 @@ public class Client {
 
 
 
-    String name="jim";
-    String pass = "pass";
-    void post() throws JSONException {
-
-
+    String name;
+    String pass;
+    void post(String user,String password ) throws JSONException {
+        name=user;
+        pass=password;
        HttpClient client = HttpClientBuilder.create().build();
 
 
@@ -47,6 +48,29 @@ public class Client {
            e.printStackTrace();
        }
 
+   }
+   void get() throws JSONException
+   {
+       HttpClient client = HttpClientBuilder.create().build();
+
+
+       HttpGet data = new HttpGet("http://147.252.136.126:8081");
+       try {
+           HttpResponse reply = client.execute(data);
+           System.out.println(reply);
+           BufferedReader rd = new BufferedReader(new InputStreamReader(reply.getEntity().getContent()));
+           String[] statements = new String[999];
+           int i=0;
+           String line = "";
+           while ((line = rd.readLine()) != null) {
+               statements[i]= line;
+               i++;
+           }
+           System.out.println(statements[1]);
+       }
+       catch(Exception e) {
+
+       }
    }
 
 }

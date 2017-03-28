@@ -11,6 +11,7 @@ public class Main {
         try
         {
             client.post();
+            client.get();
         }
         catch(Exception e)
         {
