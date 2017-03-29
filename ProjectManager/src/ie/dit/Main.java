@@ -10,7 +10,7 @@ public class Main {
         Client client = new Client();
         try
         {
-            client.post();
+            client.post("kevin","password");
             client.get();
         }
         catch(Exception e)

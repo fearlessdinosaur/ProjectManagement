@@ -1,23 +1,20 @@
+//basic skeleton code found online
 package ie.dit;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
-import org.apache.http.NameValuePair;
 import org.apache.http.client.HttpClient;
-import org.apache.http.client.entity.UrlEncodedFormEntity;
 import org.apache.http.entity.ContentType;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.impl.client.HttpClientBuilder;
-import org.apache.http.message.BasicNameValuePair;
 import org.json.*;
 
 
 import java.io.IOException;
 
-import java.util.*;
 public class Client {
 
 
@@ -27,10 +24,9 @@ public class Client {
     void post(String user,String password ) throws JSONException {
         name=user;
         pass=password;
-       HttpClient client = HttpClientBuilder.create().build();
+        HttpClient client = HttpClientBuilder.create().build();
 
-
-       HttpPost data = new HttpPost("http://192.168.1.15:8081");
+       HttpPost data = new HttpPost("http://192.168.43.215:8081");
        try
        {
            JSONObject input = new JSONObject();
@@ -54,7 +50,7 @@ public class Client {
        HttpClient client = HttpClientBuilder.create().build();
 
 
-       HttpGet data = new HttpGet("http://147.252.136.126:8081");
+       HttpGet data = new HttpGet("http://192.168.43.215:8081");
        try {
            HttpResponse reply = client.execute(data);
            System.out.println(reply);
