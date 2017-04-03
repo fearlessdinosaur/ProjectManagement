@@ -24,9 +24,8 @@ public class Client {
     void post(String user,String password ) throws JSONException {
         name=user;
         pass=password;
-        HttpClient client = HttpClientBuilder.create().build();
-
-       HttpPost data = new HttpPost("http://192.168.43.215:8081");
+        HttpClient post = HttpClientBuilder.create().build();
+        HttpPost target = new HttpPost("http://192.168.43.126:8082");
        try
        {
            JSONObject input = new JSONObject();
@@ -35,8 +34,8 @@ public class Client {
            input.put("Code",1);
 
            StringEntity entity = new StringEntity(String.valueOf(input),ContentType.APPLICATION_JSON);
-           data.setEntity(entity);
-           HttpResponse reply = client.execute(data);
+           target.setEntity(entity);
+           HttpResponse reply = post.execute(target);
            System.out.println(reply);
 
        } catch (IOException e)
@@ -47,22 +46,22 @@ public class Client {
    }
    void get() throws JSONException
    {
-       HttpClient client = HttpClientBuilder.create().build();
+       HttpClient get = HttpClientBuilder.create().build();
 
 
-       HttpGet data = new HttpGet("http://192.168.43.215:8081");
+       HttpGet data = new HttpGet("http://192.168.43.126:8082");
        try {
-           HttpResponse reply = client.execute(data);
+           HttpResponse reply = get.execute(data);
            System.out.println(reply);
-           BufferedReader rd = new BufferedReader(new InputStreamReader(reply.getEntity().getContent()));
-           String[] statements = new String[999];
+           BufferedReader readIn = new BufferedReader(new InputStreamReader(reply.getEntity().getContent()));
+           String[] file = new String[999];
            int i=0;
            String line = "";
-           while ((line = rd.readLine()) != null) {
-               statements[i]= line;
+           while ((line = readIn.readLine()) != null) {
+               file[i]= line;
                i++;
            }
-           System.out.println(statements[1]);
+           System.out.println(file[1]);
        }
        catch(Exception e) {
 

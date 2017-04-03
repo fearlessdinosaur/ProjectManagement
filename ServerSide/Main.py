@@ -1,8 +1,7 @@
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import simplejson
 
-
-# HTTPRequestHandler class
+#skeleton code found online 
 class Server(BaseHTTPRequestHandler):
     def do_GET(self):
         file = open("WriteFile.txt", "r+")
@@ -39,7 +38,7 @@ class Server(BaseHTTPRequestHandler):
 def run():
     print('starting server...')
 
-    server_address = ('192.168.43.215', 8081)
+    server_address = ('192.168.43.126', 8082)
     httpd = HTTPServer(server_address, Server)
     print('running server...')
     httpd.serve_forever()
