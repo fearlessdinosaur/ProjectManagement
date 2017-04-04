@@ -1,8 +1,7 @@
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import simplejson
-
-
-# HTTPRequestHandler class
+import sqlite3
+#skeleton code found online
 class Server(BaseHTTPRequestHandler):
     def do_GET(self):
         file = open("WriteFile.txt", "r+")
@@ -28,18 +27,41 @@ class Server(BaseHTTPRequestHandler):
             self.end_headers()
             content_length = int(self.headers['Content-Length'])
             output = simplejson.loads(self.rfile.read(content_length))
-            if output['Code'] == 1 :
-                print("Storing Input")
-            file.write("\n"+'name is '+output['name'])
+            file.write("\n"+output['name'] + " " + output['password'])
+            data(output['name'],output['password'])
             file.close()
             return
         except:
             pass
 
+
+def data(name,password):
+
+    try:
+        database = sqlite3.connect('data/userInf.db')
+        cursor = database.cursor()
+        cursor.execute('''
+            CREATE TABLE IF NOT EXISTS user(name TEXT,password TEXT)
+        ''')
+
+        database.commit()
+        cursor.execute('''INSERT INTO user(name,password) VALUES(?,?)''', (name,password))
+        database.commit()
+        print(database)
+        cursor.execute('''SELECT * FROM user''')
+        user1 = cursor.fetchone()
+        print(user1[0])
+    except sqlite3.OperationalError as msg:
+        print(msg)
+        raise msg
+    finally:
+        database.close()
+
+
 def run():
     print('starting server...')
 
-    server_address = ('192.168.43.215', 8081)
+    server_address = ('192.168.43.215', 8082)
     httpd = HTTPServer(server_address, Server)
     print('running server...')
     httpd.serve_forever()
