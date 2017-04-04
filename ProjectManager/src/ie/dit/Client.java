@@ -25,7 +25,7 @@ public class Client {
         name=user;
         pass=password;
         HttpClient post = HttpClientBuilder.create().build();
-        HttpPost target = new HttpPost("http://192.168.43.126:8082");
+        HttpPost target = new HttpPost("http://192.168.43.215:8082");
        try
        {
            JSONObject input = new JSONObject();
@@ -49,7 +49,7 @@ public class Client {
        HttpClient get = HttpClientBuilder.create().build();
 
 
-       HttpGet data = new HttpGet("http://192.168.43.126:8082");
+       HttpGet data = new HttpGet("http://192.168.43.215:8082");
        try {
            HttpResponse reply = get.execute(data);
            System.out.println(reply);
