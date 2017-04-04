@@ -31,7 +31,7 @@ public class signUpController {
         Image app = new Image(getClass().getResourceAsStream("kingthomas.png"));
         System.out.println("hey");
         stage = (Stage) log_in1.getScene().getWindow();
-        root = FXMLLoader.load(getClass().getResource("../../../ProjectManager/ProjectManager/src/ie/dit/login.fxml"));
+        root = FXMLLoader.load(getClass().getResource("login.fxml"));
         stage.setScene(new Scene(root));
         stage.getIcons().add(app);
         stage.setTitle("Project Manager");

@@ -15,7 +15,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("../../../ProjectManager/ProjectManager/src/ie/dit/login.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("login.fxml"));
         Image app = new Image(getClass().getResourceAsStream("kingthomas.png"));
         primaryStage.setTitle("Log In");
         primaryStage.getIcons().add(app);
