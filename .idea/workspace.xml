@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="931060de-6b6f-43b7-bd63-9cb45a5088b2" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectManager/ie/dit/Client.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectManager/ie/dit/Main.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/ie/dit/Client.class" afterPath="$PROJECT_DIR$/out/ie/dit/Client.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/ie/dit/Main.class" afterPath="$PROJECT_DIR$/out/ie/dit/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ProjectManager.iml" afterPath="$PROJECT_DIR$/.idea/ProjectManager.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/ie/dit/signUpController.class" afterPath="$PROJECT_DIR$/out/ie/dit/signUpController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectManager/src/ie/dit/Client.java" afterPath="$PROJECT_DIR$/ProjectManager/src/ie/dit/Client.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectManager/src/ie/dit/Main.java" afterPath="$PROJECT_DIR$/ProjectManager/src/ie/dit/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectManager/src/ie/dit/signUpController.java" afterPath="$PROJECT_DIR$/ProjectManager/src/ie/dit/signUpController.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,8 +25,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="25" column="41" lean-forward="false" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+            <state relative-caret-position="102">
+              <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Client.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="28" column="65" lean-forward="false" selection-start-line="28" selection-start-column="65" selection-end-line="28" selection-end-column="65" />
+            <state relative-caret-position="103">
+              <caret line="31" column="47" lean-forward="true" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,18 +75,20 @@
       <file leaf-file-name="signUpController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/signUpController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-132">
-              <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-              <folding />
+            <state relative-caret-position="228">
+              <caret line="35" column="8" lean-forward="false" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logInController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="logInController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/logInController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+            <state relative-caret-position="247">
+              <caret line="30" column="8" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,7 +99,7 @@
       <file leaf-file-name="login.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/login.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="-196">
               <caret line="21" column="81" lean-forward="false" selection-start-line="21" selection-start-column="81" selection-end-line="21" selection-end-column="81" />
               <folding />
             </state>
@@ -132,13 +132,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ProjectManager/src/ie/dit/logInController.java" />
         <option value="$PROJECT_DIR$/ProjectManager/src/ie/dit/login.fxml" />
-        <option value="$PROJECT_DIR$/ProjectManager/src/ie/dit/signUpController.java" />
         <option value="$PROJECT_DIR$/ProjectManager/src/ie/dit/managerController.java" />
         <option value="$PROJECT_DIR$/ProjectManager/src/ie/dit/sign_up.fxml" />
-        <option value="$PROJECT_DIR$/ProjectManager/src/ie/dit/Main.java" />
         <option value="$PROJECT_DIR$/ProjectManager/src/ie/dit/Client.java" />
+        <option value="$PROJECT_DIR$/ProjectManager/src/ie/dit/Main.java" />
+        <option value="$PROJECT_DIR$/ProjectManager/src/ie/dit/signUpController.java" />
+        <option value="$PROJECT_DIR$/ProjectManager/src/ie/dit/logInController.java" />
       </list>
     </option>
   </component>
@@ -652,12 +652,12 @@
       <option name="presentableId" value="Default" />
       <updated>1491317902639</updated>
       <workItem from="1491317904626" duration="679000" />
-      <workItem from="1491318990361" duration="1729000" />
+      <workItem from="1491318990361" duration="2417000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2408000" />
+    <option name="totallyTimeSpent" value="3096000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -729,33 +729,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="25" column="41" lean-forward="false" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/managerController.java">
+    <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/manager.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/login.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="81" lean-forward="false" selection-start-line="21" selection-start-column="81" selection-end-line="21" selection-end-column="81" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="31" column="47" lean-forward="true" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/sign_up.fxml">
@@ -769,10 +761,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/manager.fxml">
+    <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/login.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-196">
+          <caret line="21" column="81" lean-forward="false" selection-start-line="21" selection-start-column="81" selection-end-line="21" selection-end-column="81" />
           <folding />
         </state>
       </provider>
@@ -780,28 +772,38 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/signUpController.java">
+    <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/managerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-132">
-          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+        <state relative-caret-position="0">
+          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/logInController.java">
+    <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        <state relative-caret-position="102">
+          <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/Client.java">
+    <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/signUpController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="28" column="65" lean-forward="false" selection-start-line="28" selection-start-column="65" selection-end-line="28" selection-end-column="65" />
+        <state relative-caret-position="228">
+          <caret line="35" column="8" lean-forward="false" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/logInController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="30" column="8" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
