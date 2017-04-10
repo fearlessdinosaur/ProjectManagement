@@ -28,11 +28,11 @@ public class logInController {
     private PasswordField password_check;
 
     @FXML
+    //goes to sign up page
     void sign_up_event(ActionEvent event) throws IOException {
         Stage stage;
         Parent root;
         Image app = new Image(getClass().getResourceAsStream("kingthomas.png"));
-        System.out.println("hey");
         stage = (Stage) sign_up.getScene().getWindow();
         root = FXMLLoader.load(getClass().getResource("sign_up.fxml"));
         stage.setScene(new Scene(root));
@@ -42,6 +42,7 @@ public class logInController {
     }
 
     @FXML
+    //will check database to see if the username and password exist together
     void log_in_event(ActionEvent event) throws IOException{
         String username;
         String password;
@@ -49,7 +50,7 @@ public class logInController {
         username = username_check.getText();
         password = password_check.getText();
 
-        Client client = new Client();
+        /*Client client = new Client();
         try
         {
             client.post(username,password);
@@ -58,8 +59,17 @@ public class logInController {
         catch(Exception e)
         {
 
-        }
+        }*/
 
+        Stage stage;
+        Parent root;
+        Image app = new Image(getClass().getResourceAsStream("kingthomas.png"));
+        stage = (Stage) log_in.getScene().getWindow();
+        root = FXMLLoader.load(getClass().getResource("manager.fxml"));
+        stage.setScene(new Scene(root));
+        stage.getIcons().add(app);
+        stage.setTitle("Project Manager");
+        stage.show();
     }
 
 
