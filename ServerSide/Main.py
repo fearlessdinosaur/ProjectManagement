@@ -1,6 +1,7 @@
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import simplejson
 import sqlite3
+import urllib
 #skeleton code found online
 class Server(BaseHTTPRequestHandler):
     def do_GET(self):
@@ -13,6 +14,10 @@ class Server(BaseHTTPRequestHandler):
         self.end_headers()
         data = file.read()
         print("responded")
+        sender = urllib.parse.urlparse(self.path)
+        print(sender)
+        input = urllib.parse.urlparse(self.path).query
+        print(input);
         self.wfile.write(bytes(data, 'UTF-8'))
         return data
 
@@ -61,7 +66,7 @@ def data(name,password):
 def run():
     print('starting server...')
 
-    server_address = ('192.168.1.25', 8082)
+    server_address = ('192.168.1.19', 8082)
     httpd = HTTPServer(server_address, Server)
     print('running server...')
     httpd.serve_forever()
