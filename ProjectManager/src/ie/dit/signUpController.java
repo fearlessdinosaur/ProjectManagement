@@ -5,9 +5,10 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
+import javafx.scene.control.*;
 import javafx.scene.image.Image;
 import javafx.stage.Stage;
+import java.lang.String.*;
 
 import java.io.IOException;
 
@@ -20,16 +21,51 @@ public class signUpController {
     private Button sign_up1;
 
     @FXML
-    void sign_up1_event(ActionEvent event) {
+    private PasswordField password_check1;
 
+    @FXML
+    private PasswordField password_check2;
+
+    @FXML
+    private TextField username_check;
+
+    @FXML
+    private Label samepassword;
+
+    @FXML
+    //creates new user account
+    void sign_up1_event(ActionEvent event){
+        String username;
+        String password1, password2;
+
+        username = username_check.getText();
+        password1 = password_check1.getText();
+        password2 = password_check2.getText();
+
+        Client client = new Client();
+
+        //checks if the 2 inputted passwords are the same
+        if(password1.compareTo(password2)==0) {
+            //if same, will send to database and create account/record
+            try {
+                client.post(username, password1);
+                client.get();
+            } catch (Exception e) {
+
+            }
+        }
+        else{
+            //if not same, will show error message
+            samepassword.setVisible(true);
+        }
     }
 
     @FXML
+    //will go back to log in page
     void log_in1_event(ActionEvent event) throws IOException {
         Stage stage;
         Parent root;
         Image app = new Image(getClass().getResourceAsStream("kingthomas.png"));
-        System.out.println("hey");
         stage = (Stage) log_in1.getScene().getWindow();
         root = FXMLLoader.load(getClass().getResource("login.fxml"));
         stage.setScene(new Scene(root));

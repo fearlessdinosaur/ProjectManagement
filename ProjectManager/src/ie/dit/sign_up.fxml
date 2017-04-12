@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.geometry.*?>
 <?import javafx.scene.text.*?>
@@ -8,7 +9,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ie.dit.signUpController">
    <children>
-      <Text layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please Enter Your Details" textAlignment="CENTER" wrappingWidth="350.0">
+      <Text layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please Enter Your Details" textAlignment="CENTER" wrappingWidth="350.0">
          <font>
             <Font size="28.0" />
          </font>
@@ -21,26 +22,20 @@
         <rowConstraints>
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Name" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+            <Text layoutX="65.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
                <font>
                   <Font size="20.0" />
                </font>
             </Text>
-            <Text layoutX="65.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+            <Text layoutX="10.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
                <font>
                   <Font size="20.0" />
                </font>
             </Text>
-            <Text layoutX="10.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
-               <font>
-                  <Font size="20.0" />
-               </font>
-            </Text>
-            <Text layoutX="10.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Reenter Password" textAlignment="CENTER" wrappingWidth="169.119140625" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+            <Text layoutX="10.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Reenter Password" textAlignment="CENTER" wrappingWidth="169.119140625" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
                <font>
                   <Font size="20.0" />
                </font>
@@ -48,16 +43,24 @@
                   <Insets left="10.0" right="10.0" />
                </GridPane.margin>
             </Text>
-            <TextField GridPane.columnIndex="1" />
-            <TextField GridPane.columnIndex="1" GridPane.rowIndex="1" />
-            <PasswordField GridPane.columnIndex="1" GridPane.rowIndex="2" />
-            <PasswordField GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <TextField fx:id="username_check" GridPane.columnIndex="1">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor></TextField>
+            <PasswordField fx:id="password_check1" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor></PasswordField>
+            <PasswordField fx:id="password_check2" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor></PasswordField>
          </children>
          <padding>
             <Insets left="10.0" right="10.0" />
          </padding>
       </GridPane>
-      <Button fx:id="sign_up1" layoutX="65.0" layoutY="224.0" mnemonicParsing="false" onAction="#sign_up1_event" prefWidth="80.0" text="Sign Up">
+      <Button fx:id="sign_up1" layoutX="71.0" layoutY="243.0" mnemonicParsing="false" onAction="#sign_up1_event" prefWidth="80.0" text="Sign Up">
          <font>
             <Font size="16.0" />
          </font>
@@ -68,8 +71,11 @@
                </font>
             </Tooltip>
          </tooltip>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
       </Button>
-      <Button fx:id="log_in1" layoutX="192.0" layoutY="224.0" mnemonicParsing="false" onAction="#log_in1_event" prefWidth="80.0" text="Log In">
+      <Button fx:id="log_in1" layoutX="200.0" layoutY="243.0" mnemonicParsing="false" onAction="#log_in1_event" prefWidth="80.0" text="Log In">
          <font>
             <Font size="16.0" />
          </font>
@@ -80,6 +86,14 @@
                </font>
             </Tooltip>
          </tooltip>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
       </Button>
+      <Label fx:id="samepassword" layoutX="71.0" layoutY="207.0" prefHeight="27.0" prefWidth="209.0" text="Passwords are not the same!" textFill="RED" visible="false">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>

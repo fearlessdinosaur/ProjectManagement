@@ -61,7 +61,7 @@ def data(name,password):
 def run():
     print('starting server...')
 
-    server_address = ('192.168.43.215', 8082)
+    server_address = ('192.168.1.25', 8082)
     httpd = HTTPServer(server_address, Server)
     print('running server...')
     httpd.serve_forever()
