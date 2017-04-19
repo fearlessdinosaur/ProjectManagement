@@ -50,26 +50,31 @@ public class logInController {
         username = username_check.getText();
         password = password_check.getText();
 
-        /*Client client = new Client();
+        Client client = new Client();
         try
         {
-            client.post(username,password);
-            client.get();
+            String success = client.get(username,password);
+            if(success.equals("0")==true) {
+                System.out.println("it werks");
+
+                Stage stage;
+                Parent root;
+                Image app = new Image(getClass().getResourceAsStream("kingthomas.png"));
+                stage = (Stage) log_in.getScene().getWindow();
+                root = FXMLLoader.load(getClass().getResource("manager.fxml"));
+                stage.setScene(new Scene(root));
+                stage.getIcons().add(app);
+                stage.setTitle("Project Manager");
+                stage.show();
+            }
+            if(success==null){
+                System.out.println("no");
+            }
         }
         catch(Exception e)
         {
 
-        }*/
-
-        Stage stage;
-        Parent root;
-        Image app = new Image(getClass().getResourceAsStream("kingthomas.png"));
-        stage = (Stage) log_in.getScene().getWindow();
-        root = FXMLLoader.load(getClass().getResource("manager.fxml"));
-        stage.setScene(new Scene(root));
-        stage.getIcons().add(app);
-        stage.setTitle("Project Manager");
-        stage.show();
+        }
     }
 
 

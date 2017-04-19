@@ -8,11 +8,7 @@
 
 <SplitPane dividerPositions="0.479933110367893" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ie.dit.managerController">
     <items>
-<<<<<<< HEAD
-    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="400.0" prefWidth="160.0" />
-=======
     <AnchorPane layoutX="550.0" layoutY="100.0" minHeight="0.0" minWidth="0.0" prefHeight="400.0" prefWidth="160.0" />
->>>>>>> master
     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="310.0" prefWidth="598.0">
          <children>
             <BubbleChart layoutY="100.0" prefHeight="200.0" prefWidth="598.0">

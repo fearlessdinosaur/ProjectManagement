@@ -49,7 +49,6 @@ public class signUpController {
             //if same, will send to database and create account/record
             try {
                 client.post(username, password1);
-                client.get();
             } catch (Exception e) {
 
             }
