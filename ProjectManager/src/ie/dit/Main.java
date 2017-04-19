@@ -25,17 +25,6 @@ public class Main extends Application {
 
     public static void main(String[] args)
     {
-        /*Client client = new Client();
-        try
-        {
-            client.post(logInController.log_in_event.username,"password");
-            client.get();
-        }
-        catch(Exception e)
-        {
-
-        }*/
-
         launch(args);
     }
 
