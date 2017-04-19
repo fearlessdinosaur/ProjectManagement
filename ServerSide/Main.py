@@ -66,7 +66,7 @@ def PostUser(name,password):
     finally:
         database.close()
 
-def GrabUser(name, password, true=None):
+def GrabUser(name, password):
     database = sqlite3.connect('data/userinf.db')
     cursor = database.cursor()
     cursor.execute('''SELECT password FROM user WHERE name = ?''', (name,))
@@ -84,6 +84,11 @@ def groupt(gId, gName, admin, adminIp):
             CREATE TABLE IF NOT EXISTS groups(gId INTEGER,gName TEXT,admin TEXT,adminIp INTEGER,PRIMARY KEY(gId))
         ''')
         database.commit()
+    except sqlite3.OperationalError as msg:
+        print(msg)
+        raise msg
+    finally:
+        database.close()
 
 
 def run():
