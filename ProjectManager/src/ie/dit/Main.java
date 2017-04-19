@@ -16,10 +16,12 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("login.fxml"));
+        Scene scene = new Scene(root);
+        scene.getStylesheets().add("ie/dit/daytheme.css");
         Image app = new Image(getClass().getResourceAsStream("kingthomas.png"));
         primaryStage.setTitle("Log In");
         primaryStage.getIcons().add(app);
-        primaryStage.setScene(new Scene(root));
+        primaryStage.setScene(scene);
         primaryStage.show();
     }
 

@@ -47,17 +47,15 @@ public class Client {
        }
 
    }
-   void get() throws JSONException, UnsupportedEncodingException {
+   String get(String name, String pass) throws JSONException, UnsupportedEncodingException {
        HttpClient get = HttpClientBuilder.create().build();
-       String name="fillip";
-       String pass = "snarpt";
        String url= "http://192.168.192.46:8082?name="+name+"&pass="+pass;
+       String[] file = new String[999];
        HttpGet data = new HttpGet(url);
        try {
            HttpResponse reply = get.execute(data);
            System.out.println(reply);
            BufferedReader readIn = new BufferedReader(new InputStreamReader(reply.getEntity().getContent()));
-           String[] file = new String[999];
            int i=0;
            String line = "";
            while ((line = readIn.readLine()) != null) {
@@ -68,6 +66,9 @@ public class Client {
        }
        catch(Exception e) {
 
+       }
+       finally{
+           return file[0];
        }
    }
 

@@ -32,10 +32,12 @@ public class logInController {
     void sign_up_event(ActionEvent event) throws IOException {
         Stage stage;
         Parent root;
+        root = FXMLLoader.load(getClass().getResource("ie/dit/sign_up.fxml"));
+        Scene scene = new Scene(root);
+        scene.getStylesheets().add("ie/dit/daytheme.css");
         Image app = new Image(getClass().getResourceAsStream("kingthomas.png"));
         stage = (Stage) sign_up.getScene().getWindow();
-        root = FXMLLoader.load(getClass().getResource("sign_up.fxml"));
-        stage.setScene(new Scene(root));
+        stage.setScene(scene);
         stage.getIcons().add(app);
         stage.setTitle("Project Manager");
         stage.show();
@@ -50,26 +52,31 @@ public class logInController {
         username = username_check.getText();
         password = password_check.getText();
 
-        /*Client client = new Client();
+        Client client = new Client();
         try
         {
-            client.post(username,password);
-            client.get();
+            String success = client.get(username,password);
+            if(success.equals("0")==true) {
+                System.out.println("it werks");
+
+                Stage stage;
+                Parent root;
+                Image app = new Image(getClass().getResourceAsStream("kingthomas.png"));
+                stage = (Stage) log_in.getScene().getWindow();
+                root = FXMLLoader.load(getClass().getResource("manager.fxml"));
+                stage.setScene(new Scene(root));
+                stage.getIcons().add(app);
+                stage.setTitle("Project Manager");
+                stage.show();
+            }
+            if(success==null){
+                System.out.println("no");
+            }
         }
         catch(Exception e)
         {
 
-        }*/
-
-        Stage stage;
-        Parent root;
-        Image app = new Image(getClass().getResourceAsStream("kingthomas.png"));
-        stage = (Stage) log_in.getScene().getWindow();
-        root = FXMLLoader.load(getClass().getResource("manager.fxml"));
-        stage.setScene(new Scene(root));
-        stage.getIcons().add(app);
-        stage.setTitle("Project Manager");
-        stage.show();
+        }
     }
 
 

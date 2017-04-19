@@ -1,0 +1,5 @@
+.root{
+	-fx-font-family: Segoe UI Semibold;
+	-fx-background-color : rgb(255,255,255);
+	-fx-base: rgb(255, 255, 255);
+}
