@@ -70,6 +70,7 @@ def GrabUser(name, password):
     database = sqlite3.connect('data/userinf.db')
     cursor = database.cursor()
     cursor.execute('''SELECT password FROM user WHERE name = ?''', (name,))
+    user1=""
     user1=cursor.fetchone()
     if user1[0]== password:
         return '0'
