@@ -56,6 +56,7 @@ kevino password
 jj joj
 lauren lkb
 lauren lkb
+<<<<<<< HEAD
 fjhfsf yup
 fhfh d
 laurenIsCoolAndBeautiful True
@@ -114,3 +115,6 @@ fillip Snarpt
 fillip Snarpt
 fillip Snarpt
 fillip Snarpt
+=======
+kk 12
+>>>>>>> master

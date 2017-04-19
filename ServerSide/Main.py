@@ -75,6 +75,16 @@ def GrabUser(name, password, true=None):
         return '0'
     else:
         return '1'
+def groupt(gId, gName, admin, adminIp):
+
+    try:
+        database = sqlite3.connect('data/userInf.db')
+        cursor = database.cursor()
+        cursor.execute('''
+            CREATE TABLE IF NOT EXISTS groups(gId INTEGER,gName TEXT,admin TEXT,adminIp INTEGER,PRIMARY KEY(gId))
+        ''')
+        database.commit()
+
 
 def run():
     print('starting server...')

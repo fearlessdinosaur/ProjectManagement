@@ -2,9 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ab00d88-8001-400b-9dec-4217f2d67ac5" name="Default" comment="">
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ie/dit/Client.java" afterPath="$PROJECT_DIR$/src/ie/dit/Client.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ServerSide/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../ServerSide/.idea/workspace.xml" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ServerSide/data/userInf.db" afterPath="$PROJECT_DIR$/../ServerSide/data/userInf.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../out/ie/dit/logInController.class" afterPath="$PROJECT_DIR$/../out/ie/dit/logInController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../out/ie/dit/signUpController.class" afterPath="$PROJECT_DIR$/../out/ie/dit/signUpController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ie/dit/logInController.java" afterPath="$PROJECT_DIR$/src/ie/dit/logInController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ie/dit/manager.fxml" afterPath="$PROJECT_DIR$/src/ie/dit/manager.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ie/dit/signUpController.java" afterPath="$PROJECT_DIR$/src/ie/dit/signUpController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ie/dit/sign_up.fxml" afterPath="$PROJECT_DIR$/src/ie/dit/sign_up.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ServerSide/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../ServerSide/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ServerSide/WriteFile.txt" afterPath="$PROJECT_DIR$/../ServerSide/WriteFile.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../out/ie/dit/manager.fxml" afterPath="$PROJECT_DIR$/../out/ie/dit/manager.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../out/ie/dit/sign_up.fxml" afterPath="$PROJECT_DIR$/../out/ie/dit/sign_up.fxml" />
+>>>>>>> master
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,8 +48,13 @@
       <file leaf-file-name="sign_up.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ie/dit/sign_up.fxml">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="119">
               <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+=======
+            <state relative-caret-position="-1171">
+              <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+>>>>>>> master
               <folding />
             </state>
           </provider>
@@ -54,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="manager.fxml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="manager.fxml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ie/dit/manager.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+            <state relative-caret-position="68">
+              <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -70,8 +89,13 @@
       <file leaf-file-name="logInController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ie/dit/logInController.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="115">
               <caret line="45" column="8" lean-forward="false" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
+=======
+            <state relative-caret-position="194">
+              <caret line="68" column="38" lean-forward="true" selection-start-line="68" selection-start-column="38" selection-end-line="68" selection-end-column="38" />
+>>>>>>> master
               <folding />
             </state>
           </provider>
@@ -80,9 +104,11 @@
       <file leaf-file-name="signUpController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ie/dit/signUpController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-              <folding />
+            <state relative-caret-position="242">
+              <caret line="73" column="21" lean-forward="false" selection-start-line="65" selection-start-column="7" selection-end-line="73" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -114,9 +140,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.idea/ProjectManager.iml" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/ie/dit/logInController.java" />
+=======
+        <option value="$PROJECT_DIR$/src/ie/dit/Client.java" />
+>>>>>>> master
         <option value="$PROJECT_DIR$/src/ie/dit/sign_up.fxml" />
         <option value="$PROJECT_DIR$/src/ie/dit/signUpController.java" />
+        <option value="$PROJECT_DIR$/src/ie/dit/logInController.java" />
         <option value="$PROJECT_DIR$/src/ie/dit/manager.fxml" />
         <option value="$PROJECT_DIR$/src/ie/dit/Client.java" />
       </list>
@@ -606,16 +637,27 @@
       <option name="presentableId" value="Default" />
       <updated>1490796621171</updated>
       <workItem from="1490796623308" duration="3738000" />
+<<<<<<< HEAD
       <workItem from="1491515515495" duration="2809000" />
       <workItem from="1491832538063" duration="7381000" />
+=======
+      <workItem from="1491515515495" duration="6668000" />
+>>>>>>> master
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="13928000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
+=======
+    <option name="totallyTimeSpent" value="10406000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+>>>>>>> master
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -763,21 +805,40 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/ie/dit/login.fxml">
+=======
+    <entry file="file://$PROJECT_DIR$/src/ie/dit/Main.java">
+>>>>>>> master
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-14">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
+<<<<<<< HEAD
+=======
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ie/dit/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ie/dit/sign_up.fxml">
+>>>>>>> master
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ie/dit/manager.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        <state relative-caret-position="-1171">
+          <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -785,14 +846,18 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ie/dit/signUpController.java">
+    <entry file="file://$PROJECT_DIR$/src/ie/dit/login.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/ie/dit/sign_up.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -808,10 +873,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="45" column="8" lean-forward="false" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/ie/dit/signUpController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="73" column="21" lean-forward="false" selection-start-line="65" selection-start-column="7" selection-end-line="73" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ie/dit/logInController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="68" column="38" lean-forward="true" selection-start-line="68" selection-start-column="38" selection-end-line="68" selection-end-column="38" />
+>>>>>>> master
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/ie/dit/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -826,6 +908,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="38" lean-forward="false" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/ie/dit/manager.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+>>>>>>> master
           <folding />
         </state>
       </provider>
