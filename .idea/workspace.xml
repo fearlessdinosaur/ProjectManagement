@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="931060de-6b6f-43b7-bd63-9cb45a5088b2" name="Default" comment="">
+<<<<<<< Updated upstream
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/ie/dit/Client.class" afterPath="$PROJECT_DIR$/out/ie/dit/Client.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/ie/dit/logInController.class" afterPath="$PROJECT_DIR$/out/ie/dit/logInController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/ie/dit/signUpController.class" afterPath="$PROJECT_DIR$/out/ie/dit/signUpController.class" />
@@ -10,6 +11,29 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectManager/src/ie/dit/logInController.java" afterPath="$PROJECT_DIR$/ProjectManager/src/ie/dit/logInController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectManager/src/ie/dit/signUpController.java" afterPath="$PROJECT_DIR$/ProjectManager/src/ie/dit/signUpController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/ie/dit/manager.fxml" afterPath="$PROJECT_DIR$/out/ie/dit/manager.fxml" />
+=======
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/cssdialects.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjectManager/src/ie/dit/daytheme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjectManager/src/ie/dit/nighttheme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/ie/dit/daytheme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/ie/dit/nighttheme.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/ie/dit/manager.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/ie/dit/signUpController.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/out/ie/dit/sign_up.fxml" afterPath="$PROJECT_DIR$/out/ie/dit/ie/dit/sign_up.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/ie/dit/Main.class" afterPath="$PROJECT_DIR$/out/ie/dit/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/ie/dit/logInController.class" afterPath="$PROJECT_DIR$/out/ie/dit/logInController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/ie/dit/managerController.class" afterPath="$PROJECT_DIR$/out/ie/dit/managerController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ProjectManager.iml" afterPath="$PROJECT_DIR$/.idea/ProjectManager.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectManager/src/ie/dit/Main.java" afterPath="$PROJECT_DIR$/ProjectManager/src/ie/dit/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectManager/src/ie/dit/logInController.java" afterPath="$PROJECT_DIR$/ProjectManager/src/ie/dit/logInController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectManager/src/ie/dit/login.fxml" afterPath="$PROJECT_DIR$/ProjectManager/src/ie/dit/login.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectManager/src/ie/dit/manager.fxml" afterPath="$PROJECT_DIR$/ProjectManager/src/ie/dit/manager.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectManager/src/ie/dit/managerController.java" afterPath="$PROJECT_DIR$/ProjectManager/src/ie/dit/managerController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectManager/src/ie/dit/signUpController.java" afterPath="$PROJECT_DIR$/ProjectManager/src/ie/dit/signUpController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServerSide/.idea/workspace.xml" afterPath="$PROJECT_DIR$/ServerSide/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/ie/dit/login.fxml" afterPath="$PROJECT_DIR$/out/ie/dit/login.fxml" />
+>>>>>>> Stashed changes
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,6 +48,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< Updated upstream
       <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/Client.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -31,11 +56,36 @@
               <caret line="70" column="26" lean-forward="false" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
+=======
+      <file leaf-file-name="manager.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/manager.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="33" lean-forward="true" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="121">
+              <caret line="19" column="46" lean-forward="false" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#822#823#0" expanded="true" />
+                <element signature="e#850#851#0" expanded="true" />
+>>>>>>> Stashed changes
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< Updated upstream
       <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -58,26 +108,97 @@
               <folding>
                 <element signature="e#734#735#0" expanded="true" />
                 <element signature="e#762#763#0" expanded="true" />
+=======
+      <file leaf-file-name="login.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/login.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="managerController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/managerController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="85" column="43" lean-forward="false" selection-start-line="85" selection-start-column="43" selection-end-line="85" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+>>>>>>> Stashed changes
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< Updated upstream
       <file leaf-file-name="logInController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/logInController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="233">
               <caret line="71" column="13" lean-forward="false" selection-start-line="69" selection-start-column="29" selection-end-line="71" selection-end-column="13" />
+=======
+      <file leaf-file-name="daytheme.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/daytheme.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="39" lean-forward="false" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+>>>>>>> Stashed changes
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< Updated upstream
+      <file leaf-file-name="signUpController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/signUpController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-8">
+              <caret line="50" column="49" lean-forward="false" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
+=======
+      <file leaf-file-name="nighttheme.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/nighttheme.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-219">
+              <caret line="4" column="39" lean-forward="false" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sign_up.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/sign_up.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="9" column="134" lean-forward="false" selection-start-line="9" selection-start-column="134" selection-end-line="9" selection-end-column="134" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="signUpController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/signUpController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="50" column="49" lean-forward="false" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
+            <state relative-caret-position="2">
+              <caret line="58" column="9" lean-forward="true" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logInController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/logInController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="65" column="8" lean-forward="true" selection-start-line="65" selection-start-column="8" selection-end-line="75" selection-end-column="21" />
+>>>>>>> Stashed changes
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,6 +207,16 @@
         </entry>
       </file>
     </leaf>
+<<<<<<< Updated upstream
+=======
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+>>>>>>> Stashed changes
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -98,14 +229,29 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ProjectManager/src/ie/dit/managerController.java" />
         <option value="$PROJECT_DIR$/ProjectManager/src/ie/dit/sign_up.fxml" />
+<<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/ProjectManager/src/ie/dit/login.fxml" />
+=======
+>>>>>>> Stashed changes
         <option value="$PROJECT_DIR$/ServerSide/Main.py" />
         <option value="$PROJECT_DIR$/ProjectManager/src/ie/dit/Main.java" />
         <option value="$PROJECT_DIR$/ProjectManager/src/ie/dit/Client.java" />
+<<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/ProjectManager/src/ie/dit/signUpController.java" />
         <option value="$PROJECT_DIR$/ProjectManager/src/ie/dit/logInController.java" />
+=======
+        <option value="$PROJECT_DIR$/ProjectManager/src/ie/dit/view/manager.fxml" />
+        <option value="$PROJECT_DIR$/ProjectManager/src/ie/dit/view/sign_up.fxml" />
+        <option value="$PROJECT_DIR$/ProjectManager/src/ie/dit/login.fxml" />
+        <option value="$PROJECT_DIR$/ProjectManager/src/ie/dit/manager.fxml" />
+        <option value="$PROJECT_DIR$/ProjectManager/src/ie/dit/logInController.java" />
+        <option value="$PROJECT_DIR$/ProjectManager/src/ie/dit/managerController.java" />
+        <option value="$PROJECT_DIR$/ProjectManager/src/ie/dit/Main.java" />
+        <option value="$PROJECT_DIR$/ProjectManager/src/ie/dit/signUpController.java" />
+        <option value="$PROJECT_DIR$/ProjectManager/src/ie/dit/daytheme.css" />
+        <option value="$PROJECT_DIR$/ProjectManager/src/ie/dit/nighttheme.css" />
+>>>>>>> Stashed changes
       </list>
     </option>
   </component>
@@ -114,6 +260,9 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -189,6 +338,12 @@
           </PATH>
         </subPane>
       </pane>
+<<<<<<< Updated upstream
+=======
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
+>>>>>>> Stashed changes
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -199,11 +354,13 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Lauren\IdeaProjects\ProjectManager\ProjectManager\src\ie\dit" />
+      <recent name="C:\Users\Lauren\IdeaProjects\ProjectManager\ProjectManager\src\ie\dit\view" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -625,23 +782,34 @@
       <workItem from="1491513873973" duration="909000" />
       <workItem from="1491515112245" duration="65000" />
       <workItem from="1491515359944" duration="97000" />
+<<<<<<< Updated upstream
       <workItem from="1492615762277" duration="42000" />
       <workItem from="1492615928414" duration="155000" />
       <workItem from="1492616330976" duration="6244000" />
       <workItem from="1492637192362" duration="886000" />
+=======
+      <workItem from="1491935373622" duration="13665000" />
+      <workItem from="1492504979359" duration="1733000" />
+      <workItem from="1492511409389" duration="10833000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="12983000" />
+=======
+    <option name="totallyTimeSpent" value="31887000" />
+>>>>>>> Stashed changes
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+<<<<<<< Updated upstream
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -656,18 +824,34 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20953101" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11965812" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2065053" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+>>>>>>> Stashed changes
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -739,8 +923,183 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="60" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="19" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/login.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/logInController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="62" lean-forward="false" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/managerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/daytheme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="3" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/nighttheme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="6" lean-forward="false" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/sign_up.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="134" lean-forward="false" selection-start-line="9" selection-start-column="134" selection-end-line="9" selection-end-column="134" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/signUpController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="76" column="1" lean-forward="false" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/manager.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="78" column="14" lean-forward="true" selection-start-line="78" selection-start-column="14" selection-end-line="78" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/login.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/logInController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="62" lean-forward="false" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/managerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/daytheme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="3" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/nighttheme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="6" lean-forward="false" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/sign_up.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="134" lean-forward="false" selection-start-line="9" selection-start-column="134" selection-end-line="9" selection-end-column="134" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/signUpController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="76" column="1" lean-forward="false" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="666">
           <caret line="37" column="0" lean-forward="false" selection-start-line="36" selection-start-column="11" selection-end-line="37" selection-end-column="0" />
+<<<<<<< Updated upstream
+=======
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+          </folding>
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
@@ -762,6 +1121,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1062">
           <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+<<<<<<< Updated upstream
+=======
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
@@ -776,6 +1141,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< Updated upstream
+=======
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+          </folding>
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
@@ -811,6 +1184,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1062">
           <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+<<<<<<< Updated upstream
+=======
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
@@ -832,6 +1211,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< Updated upstream
+=======
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+          </folding>
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
@@ -867,6 +1254,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="30" column="8" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+<<<<<<< Updated upstream
+=======
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
@@ -888,6 +1281,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< Updated upstream
+=======
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+          </folding>
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
@@ -898,34 +1299,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/sign_up.fxml">
+    <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        <state relative-caret-position="244">
+          <caret line="56" column="2" lean-forward="false" selection-start-line="56" selection-start-column="2" selection-end-line="56" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/manager.fxml">
+    <entry file="file://$PROJECT_DIR$/ServerSide/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="240">
+          <caret line="55" column="17" lean-forward="false" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/login.fxml">
+<<<<<<< Updated upstream
+=======
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="25" column="47" lean-forward="false" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+        <state relative-caret-position="34">
+          <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/managerController.java">
+>>>>>>> Stashed changes
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+        <state relative-caret-position="233">
+          <caret line="85" column="43" lean-forward="false" selection-start-line="85" selection-start-column="43" selection-end-line="85" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/logInController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="65" column="8" lean-forward="true" selection-start-line="65" selection-start-column="8" selection-end-line="75" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/ServerSide/Main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -942,19 +1364,59 @@
             <marker date="1492638038143" expanded="true" signature="55368:55403" ph="..." />
             <marker date="1492638038143" expanded="true" signature="55368:55416" ph="..." />
           </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/signUpController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2">
+          <caret line="58" column="9" lean-forward="true" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/Client.java">
+    <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/sign_up.fxml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="9" column="134" lean-forward="false" selection-start-line="9" selection-start-column="134" selection-end-line="9" selection-end-column="134" />
+          <folding />
+>>>>>>> Stashed changes
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="412">
           <caret line="70" column="26" lean-forward="false" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+=======
+        <state relative-caret-position="121">
+          <caret line="19" column="46" lean-forward="false" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/manager.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="33" lean-forward="true" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <folding />
+>>>>>>> Stashed changes
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -980,6 +1442,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
           <caret line="71" column="13" lean-forward="false" selection-start-line="69" selection-start-column="29" selection-end-line="71" selection-end-column="13" />
+=======
+    <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/daytheme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="39" lean-forward="false" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/nighttheme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-219">
+          <caret line="4" column="39" lean-forward="false" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+>>>>>>> Stashed changes
           <folding />
         </state>
       </provider>

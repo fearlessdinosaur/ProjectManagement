@@ -8,7 +8,6 @@ import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.image.Image;
 import javafx.stage.Stage;
-import java.lang.String.*;
 
 import java.io.IOException;
 
@@ -67,7 +66,9 @@ public class signUpController {
         Image app = new Image(getClass().getResourceAsStream("kingthomas.png"));
         stage = (Stage) log_in1.getScene().getWindow();
         root = FXMLLoader.load(getClass().getResource("login.fxml"));
-        stage.setScene(new Scene(root));
+        Scene scene = new Scene(root);
+        scene.getStylesheets().add("ie/dit/daytheme.css");
+        stage.setScene(scene);
         stage.getIcons().add(app);
         stage.setTitle("Project Manager");
         stage.show();

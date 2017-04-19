@@ -32,10 +32,12 @@ public class logInController {
     void sign_up_event(ActionEvent event) throws IOException {
         Stage stage;
         Parent root;
+        root = FXMLLoader.load(getClass().getResource("ie/dit/sign_up.fxml"));
+        Scene scene = new Scene(root);
+        scene.getStylesheets().add("ie/dit/daytheme.css");
         Image app = new Image(getClass().getResourceAsStream("kingthomas.png"));
         stage = (Stage) sign_up.getScene().getWindow();
-        root = FXMLLoader.load(getClass().getResource("sign_up.fxml"));
-        stage.setScene(new Scene(root));
+        stage.setScene(scene);
         stage.getIcons().add(app);
         stage.setTitle("Project Manager");
         stage.show();

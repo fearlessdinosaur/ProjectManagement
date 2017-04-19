@@ -7,7 +7,8 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ie.dit.managerController">
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <GridPane prefHeight="550.0" prefWidth="600.0">
         <columnConstraints>
@@ -49,7 +50,7 @@
                   </TitledPane>
               </panes>
             </Accordion>
-            <MenuBar fx:id="toolbar">
+            <MenuBar>
               <menus>
                 <Menu mnemonicParsing="false" text="Team">
                   <items>
@@ -66,12 +67,10 @@
                     <MenuItem mnemonicParsing="false" text="About" />
                   </items>
                 </Menu>
-                  <Menu fx:id="settings_menu" mnemonicParsing="false" text="Settings">
-                     <items>
-                        <CheckMenuItem fx:id="daytheme" mnemonicParsing="false" onAction="#uncheck1" selected="true" text="Day Theme" />
-                        <CheckMenuItem fx:id="nighttheme" mnemonicParsing="false" onAction="#uncheck2" text="Night Theme" />
-                        <CheckMenuItem fx:id="oddtheme" mnemonicParsing="false" onAction="#uncheck3" text="Odd Theme" />
-                     </items>
+                  <Menu mnemonicParsing="false" text="Settings">
+                    <items>
+                      <MenuItem mnemonicParsing="false" text="Action 1" />
+                    </items>
                   </Menu>
               </menus>
             </MenuBar>

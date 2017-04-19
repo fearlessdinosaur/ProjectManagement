@@ -9,6 +9,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ServerSide$Main.coverage" NAME="Main Coverage Results" MODIFIED="1491851699019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -47,9 +50,19 @@
               <caret line="155" column="0" lean-forward="true" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
 =======
             <state relative-caret-position="368">
+<<<<<<< Updated upstream
               <caret line="64" column="46" lean-forward="false" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="46" />
 >>>>>>> master
               <folding />
+=======
+              <caret line="74" column="46" lean-forward="false" selection-start-line="74" selection-start-column="46" selection-end-line="74" selection-end-column="46" />
+              <folding>
+                <marker date="1492011738619" expanded="true" signature="1284:1340" ph="CREATE TABLE... IF" />
+                <marker date="1492011738619" expanded="true" signature="1407:1450" ph="INSERT INTO user... " />
+                <marker date="1492011738619" expanded="true" signature="1548:1566" ph="SELECT * FRO... user" />
+                <marker date="1492011738619" expanded="true" signature="1927:2028" ph="CREATE TABLE... groups" />
+              </folding>
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
@@ -103,7 +116,6 @@
     <panes>
       <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -118,6 +130,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -403,8 +416,17 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1370" height="744" extended-state="1" />
+    <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22986823" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -416,7 +438,7 @@
       <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24921136" sideWeight="0.49409157" order="2" side_tool="false" content_ui="tabs" />
 =======
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2949527" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2949527" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
@@ -425,7 +447,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -454,6 +476,9 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -478,7 +503,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1492011738619" expanded="true" signature="1284:1340" ph="CREATE TABLE... IF" />
+            <marker date="1492011738619" expanded="true" signature="1407:1450" ph="INSERT INTO user... " />
+            <marker date="1492011738619" expanded="true" signature="1548:1566" ph="SELECT * FRO... user" />
+            <marker date="1492011738619" expanded="true" signature="1927:2028" ph="CREATE TABLE... groups" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1492011738619" expanded="true" signature="1284:1340" ph="CREATE TABLE... IF" />
+            <marker date="1492011738619" expanded="true" signature="1407:1450" ph="INSERT INTO user... " />
+            <marker date="1492011738619" expanded="true" signature="1548:1566" ph="SELECT * FRO... user" />
+            <marker date="1492011738619" expanded="true" signature="1927:2028" ph="CREATE TABLE... groups" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -497,6 +540,75 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+<<<<<<< Updated upstream
+            <element signature="e#0#58#0" expanded="true" />
+=======
+            <marker date="1492011738619" expanded="true" signature="1284:1340" ph="CREATE TABLE... IF" />
+            <marker date="1492011738619" expanded="true" signature="1407:1450" ph="INSERT INTO user... " />
+            <marker date="1492011738619" expanded="true" signature="1548:1566" ph="SELECT * FRO... user" />
+            <marker date="1492011738619" expanded="true" signature="1927:2028" ph="CREATE TABLE... groups" />
+>>>>>>> Stashed changes
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+<<<<<<< Updated upstream
+            <element signature="e#0#58#0" expanded="true" />
+=======
+            <marker date="1492011738619" expanded="true" signature="1284:1340" ph="CREATE TABLE... IF" />
+            <marker date="1492011738619" expanded="true" signature="1407:1450" ph="INSERT INTO user... " />
+            <marker date="1492011738619" expanded="true" signature="1548:1566" ph="SELECT * FRO... user" />
+            <marker date="1492011738619" expanded="true" signature="1927:2028" ph="CREATE TABLE... groups" />
+>>>>>>> Stashed changes
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+<<<<<<< Updated upstream
+            <element signature="e#0#58#0" expanded="true" />
+=======
+            <marker date="1492011738619" expanded="true" signature="1284:1340" ph="CREATE TABLE... IF" />
+            <marker date="1492011738619" expanded="true" signature="1407:1450" ph="INSERT INTO user... " />
+            <marker date="1492011738619" expanded="true" signature="1548:1566" ph="SELECT * FRO... user" />
+            <marker date="1492011738619" expanded="true" signature="1927:2028" ph="CREATE TABLE... groups" />
+>>>>>>> Stashed changes
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+<<<<<<< Updated upstream
+            <element signature="e#0#58#0" expanded="true" />
+=======
+            <marker date="1492011738619" expanded="true" signature="1284:1340" ph="CREATE TABLE... IF" />
+            <marker date="1492011738619" expanded="true" signature="1407:1450" ph="INSERT INTO user... " />
+            <marker date="1492011738619" expanded="true" signature="1548:1566" ph="SELECT * FRO... user" />
+            <marker date="1492011738619" expanded="true" signature="1927:2028" ph="CREATE TABLE... groups" />
+>>>>>>> Stashed changes
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+<<<<<<< Updated upstream
             <element signature="e#0#58#0" expanded="true" />
           </folding>
         </state>
@@ -518,6 +630,12 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#58#0" expanded="true" />
+=======
+            <marker date="1492011738619" expanded="true" signature="1284:1340" ph="CREATE TABLE... IF" />
+            <marker date="1492011738619" expanded="true" signature="1407:1450" ph="INSERT INTO user... " />
+            <marker date="1492011738619" expanded="true" signature="1548:1566" ph="SELECT * FRO... user" />
+            <marker date="1492011738619" expanded="true" signature="1927:2028" ph="CREATE TABLE... groups" />
+>>>>>>> Stashed changes
           </folding>
         </state>
       </provider>
@@ -527,46 +645,11 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#58#0" expanded="true" />
+            <marker date="1492011738619" expanded="true" signature="1284:1340" ph="CREATE TABLE... IF" />
+            <marker date="1492011738619" expanded="true" signature="1407:1450" ph="INSERT INTO user... " />
+            <marker date="1492011738619" expanded="true" signature="1548:1566" ph="SELECT * FRO... user" />
+            <marker date="1492011738619" expanded="true" signature="1927:2028" ph="CREATE TABLE... groups" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -643,9 +726,19 @@
           <caret line="155" column="0" lean-forward="true" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
 =======
         <state relative-caret-position="368">
+<<<<<<< Updated upstream
           <caret line="64" column="46" lean-forward="false" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="46" />
 >>>>>>> master
           <folding />
+=======
+          <caret line="74" column="46" lean-forward="false" selection-start-line="74" selection-start-column="46" selection-end-line="74" selection-end-column="46" />
+          <folding>
+            <marker date="1492011738619" expanded="true" signature="1284:1340" ph="CREATE TABLE... IF" />
+            <marker date="1492011738619" expanded="true" signature="1407:1450" ph="INSERT INTO user... " />
+            <marker date="1492011738619" expanded="true" signature="1548:1566" ph="SELECT * FRO... user" />
+            <marker date="1492011738619" expanded="true" signature="1927:2028" ph="CREATE TABLE... groups" />
+          </folding>
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
