@@ -28,7 +28,7 @@ public class Client {
         pass=password;
 
         HttpClient post = HttpClientBuilder.create().build();
-        HttpPost target = new HttpPost("http://192.168.1.19:8082");
+        HttpPost target = new HttpPost("http://192.168.192.46:8082");
        try
        {
            JSONObject input = new JSONObject();
@@ -51,7 +51,7 @@ public class Client {
        HttpClient get = HttpClientBuilder.create().build();
        String name="fillip";
        String pass = "snarpt";
-       String url= "http://192.168.1.19:8082?name="+name+"&pass="+pass;
+       String url= "http://192.168.192.46:8082?name="+name+"&pass="+pass;
        HttpGet data = new HttpGet(url);
        try {
            HttpResponse reply = get.execute(data);
@@ -64,7 +64,7 @@ public class Client {
                file[i]= line;
                i++;
            }
-           System.out.println(file[1]);
+           System.out.println(file[0]);
        }
        catch(Exception e) {
 

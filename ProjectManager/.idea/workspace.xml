@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ab00d88-8001-400b-9dec-4217f2d67ac5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ServerSide/data/userInf.db" afterPath="$PROJECT_DIR$/../ServerSide/data/userInf.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../out/ie/dit/Client.class" afterPath="$PROJECT_DIR$/../out/ie/dit/Client.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ie/dit/Client.java" afterPath="$PROJECT_DIR$/src/ie/dit/Client.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ServerSide/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../ServerSide/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ServerSide/Main.py" afterPath="$PROJECT_DIR$/../ServerSide/Main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ServerSide/WriteFile.txt" afterPath="$PROJECT_DIR$/../ServerSide/WriteFile.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../out/ie/dit/manager.fxml" afterPath="$PROJECT_DIR$/../out/ie/dit/manager.fxml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -52,11 +47,9 @@
       <file leaf-file-name="Client.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ie/dit/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="53" column="59" lean-forward="false" selection-start-line="53" selection-start-column="59" selection-end-line="53" selection-end-column="59" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="204">
+              <caret line="12" column="38" lean-forward="false" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -614,12 +607,12 @@
       <updated>1490796621171</updated>
       <workItem from="1490796623308" duration="3738000" />
       <workItem from="1491515515495" duration="2809000" />
-      <workItem from="1491832538063" duration="6091000" />
+      <workItem from="1491832538063" duration="7381000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12638000" />
+    <option name="totallyTimeSpent" value="13928000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
@@ -696,9 +689,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="935">
           <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -754,9 +745,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -835,11 +824,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ie/dit/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="53" column="59" lean-forward="false" selection-start-line="53" selection-start-column="59" selection-end-line="53" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="204">
+          <caret line="12" column="38" lean-forward="false" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>

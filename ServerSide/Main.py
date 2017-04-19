@@ -4,6 +4,7 @@ import sqlite3
 import urllib
 #skeleton code found online
 class Server(BaseHTTPRequestHandler):
+
     def do_GET(self):
         file = open("WriteFile.txt", "r+")
 
@@ -12,12 +13,16 @@ class Server(BaseHTTPRequestHandler):
         # Send headers
         self.send_header('Content-type', 'application/json')
         self.end_headers()
-        data = file.read()
         print("responded")
         sender = urllib.parse.urlparse(self.path)
-        print(sender)
-        input = urllib.parse.urlparse(self.path).query
-        print(input);
+
+        input = urllib.parse.parse_qsl(sender[4])
+        group1= input[0]
+        group2= input[1]
+        name=group1[1]
+        password=group2[1]
+        data=GrabUser(name,password)
+        print(data)
         self.wfile.write(bytes(data, 'UTF-8'))
         return data
 
@@ -33,14 +38,14 @@ class Server(BaseHTTPRequestHandler):
             content_length = int(self.headers['Content-Length'])
             output = simplejson.loads(self.rfile.read(content_length))
             file.write("\n"+output['name'] + " " + output['password'])
-            data(output['name'],output['password'])
+            PostUser(output['name'],output['password'])
             file.close()
             return
         except:
             pass
 
 
-def data(name,password):
+def PostUser(name,password):
 
     try:
         database = sqlite3.connect('data/userInf.db')
@@ -52,7 +57,6 @@ def data(name,password):
         database.commit()
         cursor.execute('''INSERT INTO user(name,password) VALUES(?,?)''', (name,password))
         database.commit()
-        print(database)
         cursor.execute('''SELECT * FROM user''')
         user1 = cursor.fetchone()
         print(user1[0])
@@ -62,11 +66,20 @@ def data(name,password):
     finally:
         database.close()
 
+def GrabUser(name, password, true=None):
+    database = sqlite3.connect('data/userinf.db')
+    cursor = database.cursor()
+    cursor.execute('''SELECT password FROM user WHERE name = ?''', (name,))
+    user1=cursor.fetchone()
+    if user1[0]== password:
+        return '0'
+    else:
+        return '1'
 
 def run():
     print('starting server...')
 
-    server_address = ('192.168.1.19', 8082)
+    server_address = ('192.168.192.46', 8082)
     httpd = HTTPServer(server_address, Server)
     print('running server...')
     httpd.serve_forever()
