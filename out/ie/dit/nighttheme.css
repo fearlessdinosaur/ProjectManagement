@@ -2,7 +2,7 @@
     -fx-font-family: Segoe UI Semibold;
     -fx-background-color : rgb(29,29,29);
     -fx-base: rgb(29,29,29);
-    -fx-text-fill:  rgb(216, 216, 216);;
+    -fx-text-fill:  rgb(216, 216, 216);
 }
 
 .button{

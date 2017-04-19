@@ -19,9 +19,9 @@ class Server(BaseHTTPRequestHandler):
         input = urllib.parse.parse_qsl(sender[4])
         group1= input[0]
         group2= input[1]
-        name=group1[1]
-        password=group2[1]
-        data=GrabUser(name,password)
+        item1=group1[1]
+        item2=group2[1]
+        data=GrabUser(item1,item2)
         print(data)
         self.wfile.write(bytes(data, 'UTF-8'))
         return data
