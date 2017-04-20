@@ -17,11 +17,16 @@ class Server(BaseHTTPRequestHandler):
         sender = urllib.parse.urlparse(self.path)
 
         input = urllib.parse.parse_qsl(sender[4])
+        print(input)
         group1= input[0]
         group2= input[1]
+        group3= input[2]
         item1=group1[1]
         item2=group2[1]
-        data=GrabUser(item1,item2)
+        code=group3[1]
+        if(code=='100'):
+            data=GrabUser(item1,item2)
+
         print(data)
         self.wfile.write(bytes(data, 'UTF-8'))
         return data
@@ -70,8 +75,11 @@ def GrabUser(name, password):
     database = sqlite3.connect('data/userinf.db')
     cursor = database.cursor()
     cursor.execute('''SELECT password FROM user WHERE name = ?''', (name,))
-    user1=""
+
     user1=cursor.fetchone()
+
+    if user1 is None:
+        return '1'
     if user1[0]== password:
         return '0'
     else:

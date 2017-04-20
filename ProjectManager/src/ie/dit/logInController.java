@@ -55,7 +55,7 @@ public class logInController {
         Client client = new Client();
         try
         {
-            String success = client.get(username,password);
+            String success = client.getUser(username,password);
             if(success.equals("0")==true) {
                 System.out.println("it werks");
 

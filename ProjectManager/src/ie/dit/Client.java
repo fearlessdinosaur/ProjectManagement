@@ -23,7 +23,7 @@ public class Client {
 
     String name;
     String pass;
-    void post(String user,String password ) throws JSONException {
+    void postUser(String user,String password ) throws JSONException {
         name=user;
         pass=password;
 
@@ -47,9 +47,10 @@ public class Client {
        }
 
    }
-   String get(String name, String pass) throws JSONException, UnsupportedEncodingException {
+   String getUser(String name, String pass) throws JSONException, UnsupportedEncodingException {
        HttpClient get = HttpClientBuilder.create().build();
-       String url= "http://192.168.192.46:8082?name="+name+"&pass="+pass;
+       int code = 100;
+       String url= "http://192.168.192.46:8082?name="+name+"&pass="+pass+"&code="+code;
        String[] file = new String[999];
        HttpGet data = new HttpGet(url);
        try {
@@ -71,5 +72,6 @@ public class Client {
            return file[0];
        }
    }
+
 
 }

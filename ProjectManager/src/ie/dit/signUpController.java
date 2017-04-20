@@ -47,7 +47,7 @@ public class signUpController {
         if(password1.compareTo(password2)==0) {
             //if same, will send to database and create account/record
             try {
-                client.post(username, password1);
+                client.postUser(username, password1);
             } catch (Exception e) {
 
             }
