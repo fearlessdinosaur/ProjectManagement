@@ -76,6 +76,7 @@ def GrabUser(name, password):
         return '0'
     else:
         return '1'
+    
 def groupt(gId, gName, admin, adminIp):
 
     try:
@@ -84,6 +85,8 @@ def groupt(gId, gName, admin, adminIp):
         cursor.execute('''
             CREATE TABLE IF NOT EXISTS groups(gId INTEGER,gName TEXT,admin TEXT,adminIp INTEGER,PRIMARY KEY(gId))
         ''')
+        database.commit()
+        cursor.execute('''INSERT INTO user(gId,gName,admin,adminIp) VALUES(?,?,?,?)''', (gId,gName,admin,adminIp))
         database.commit()
     except sqlite3.OperationalError as msg:
         print(msg)
