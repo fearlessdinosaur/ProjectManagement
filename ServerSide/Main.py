@@ -56,7 +56,7 @@ def PostUser(name,password):
         database = sqlite3.connect('data/userInf.db')
         cursor = database.cursor()
         cursor.execute('''
-            CREATE TABLE IF NOT EXISTS user(name TEXT,password TEXT)
+            CREATE TABLE IF NOT EXISTS user(name TEXT,password TEXT,id INTEGER,groupId INTEGER)
         ''')
 
         database.commit()
