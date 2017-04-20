@@ -38,13 +38,18 @@ class Server(BaseHTTPRequestHandler):
 
         try:
 
-            self.send_response(200,"successful post")
-            self.send_header('Content-type', 'application/json')
-            self.end_headers()
             content_length = int(self.headers['Content-Length'])
             output = simplejson.loads(self.rfile.read(content_length))
-            file.write("\n"+output['name'] + " " + output['password'])
-            PostUser(output['name'],output['password'])
+            if(output['Code']=='1'):
+                PostUser(output['name'],output['password'])
+                self.send_response(200, "successful post")
+                self.send_header('Content-type', 'application/json')
+                self.end_headers()
+            if(output['Code']=='2'):
+                data=groupt(1,output['name'],'holdPlace',1)
+                self.send_response(data, "successful post")
+                self.send_header('Content-type', 'application/json')
+                self.end_headers()
             file.close()
             return
         except:
@@ -78,9 +83,9 @@ def Login(name, password):
     user1=""
     user1=cursor.fetchone()
     if user1[0]== password:
-        return '0'
+        return 0
     else:
-        return '1'
+        return 1
     
 def groupt(gId, gName, admin, adminIp):
 
@@ -95,8 +100,9 @@ def groupt(gId, gName, admin, adminIp):
         checker=cursor.fetchone()
         if checker is None:
             cursor.execute('''INSERT INTO groups(gId,gName,admin,adminIp) VALUES(?,?,?,?)''', (gId,gName,admin,adminIp))
+            return '0'
         else:
-            exit()
+            return '1'
         database.commit()
 
         cursor.execute('''SELECT * FROM groups''')
