@@ -19,9 +19,15 @@ class Server(BaseHTTPRequestHandler):
         input = urllib.parse.parse_qsl(sender[4])
         group1= input[0]
         group2= input[1]
+        group3= input[2]
         item1=group1[1]
         item2=group2[1]
-        data=GrabUser(item1,item2)
+        passW=group3[1]
+        if(passW=='100'):
+            data=Login(item1,item2)
+        if(passW == 101):
+            data=GrabGroupt(item1)
+
         print(data)
         self.wfile.write(bytes(data, 'UTF-8'))
         return data
@@ -65,7 +71,7 @@ def PostUser(name,password):
     finally:
         database.close()
 
-def GrabUser(name, password):
+def Login(name, password):
     database = sqlite3.connect('data/userinf.db')
     cursor = database.cursor()
     cursor.execute('''SELECT password FROM user WHERE name = ?''', (name,))
@@ -85,23 +91,30 @@ def groupt(gId, gName, admin, adminIp):
             CREATE TABLE IF NOT EXISTS groups(gId INTEGER,gName TEXT,admin TEXT,adminIp INTEGER,PRIMARY KEY(gId))
         ''')
         database.commit()
-        cursor.execute('''INSERT INTO groups(gId,gName,admin,adminIp) VALUES(?,?,?,?)''', (gId,gName,admin,adminIp))
+        cursor.execute('''SELECT * FROM groups WHERE gName = ?''', (gName,))
+        checker=cursor.fetchone()
+        if checker is None:
+            cursor.execute('''INSERT INTO groups(gId,gName,admin,adminIp) VALUES(?,?,?,?)''', (gId,gName,admin,adminIp))
+        else:
+            exit()
         database.commit()
+
         cursor.execute('''SELECT * FROM groups''')
         group1 = cursor.fetchone()
-        print(group[0])
+        print(group1[0])
     except sqlite3.OperationalError as msg:
         print(msg)
         raise msg
     finally:
         database.close()
 
-def GrabGroupt(gId, gName, admin, adminIp):
+def GrabGroupt(gName):
     database = sqlite3.connect('data/userinf.db')
     cursor = database.cursor()
     cursor.execute('''SELECT gId FROM groups WHERE gName = ?''', (gName,))
     group1 = ""
     group1 = cursor.fetchone()
+    return group1[0]
     
 
 
