@@ -59,6 +59,21 @@ public class Client {
         }
 
     }
+    void postTeam(String team) throws JSONException
+    {
+        String Tname = team;
+        try {
+            JSONObject input = new JSONObject();
+            input.put("name", Tname);
+            input.put("Code", 2);
+            post(input);
+
+
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+    }
 
     String find(String url) throws JSONException, UnsupportedEncodingException {
 
