@@ -44,7 +44,6 @@ class Server(BaseHTTPRequestHandler):
         except:
             pass
 
-
 def PostUser(name,password):
 
     try:
@@ -96,6 +95,14 @@ def groupt(gId, gName, admin, adminIp):
         raise msg
     finally:
         database.close()
+
+def GrabGroupt(gId, gName, admin, adminIp):
+    database = sqlite3.connect('data/userinf.db')
+    cursor = database.cursor()
+    cursor.execute('''SELECT gId FROM groups WHERE gName = ?''', (gName,))
+    group1 = ""
+    group1 = cursor.fetchone()
+    
 
 
 def run():
