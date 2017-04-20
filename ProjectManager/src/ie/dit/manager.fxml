@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.text.*?>
 <?import javafx.scene.shape.*?>
 <?import javafx.scene.chart.*?>
 <?import javafx.scene.*?>
@@ -15,12 +16,30 @@
         </columnConstraints>
         <rowConstraints>
           <RowConstraints maxHeight="179.0" minHeight="0.0" prefHeight="42.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="179.0" minHeight="10.0" prefHeight="42.0" vgrow="SOMETIMES" />
           <RowConstraints maxHeight="509.0" minHeight="10.0" prefHeight="508.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Accordion prefHeight="480.0" prefWidth="600.0" GridPane.rowIndex="1">
+            <Accordion prefHeight="480.0" prefWidth="600.0" GridPane.rowIndex="2">
               <panes>
-                <TitledPane animated="false" text="Calender" />
+                <TitledPane animated="false" text="Calender">
+                     <content>
+                        <SplitPane dividerPositions="0.29797979797979796" prefHeight="160.0" prefWidth="200.0">
+                          <items>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                                 <children>
+                                    <TreeView layoutX="-12.0" layoutY="-1.0" prefHeight="432.0" prefWidth="175.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                 </children>
+                              </AnchorPane>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                                 <children>
+                                    <DatePicker layoutX="14.0" layoutY="14.0" />
+                                 </children>
+                              </AnchorPane>
+                          </items>
+                        </SplitPane>
+                     </content>
+                  </TitledPane>
                 <TitledPane animated="false" text="Work Done">
                      <content>
                         <BubbleChart>
@@ -35,22 +54,30 @@
                   </TitledPane>
                   <TitledPane prefHeight="200.0" prefWidth="200.0" text="Create New Event">
                      <content>
-                        <VBox prefHeight="200.0" prefWidth="100.0" spacing="10.0">
+                        <VBox prefHeight="255.0" prefWidth="598.0" spacing="10.0">
                            <children>
-                              <DatePicker />
-                              <TextArea prefHeight="200.0" prefWidth="200.0" text="Create event here..." />
-                              <Button mnemonicParsing="false" text="Save" />
+                              <DatePicker fx:id="event_date_pick" />
+                              <TextField fx:id="event_name" text="Event name here..." />
+                              <TextArea fx:id="event_info" prefHeight="200.0" prefWidth="200.0" text="Create event here..." />
+                              <HBox prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+                                 <children>
+                                    <Button fx:id="save" mnemonicParsing="false" onAction="#save_event" text="Save" />
+                                    <Button fx:id="clear" mnemonicParsing="false" onAction="#clear_event" text="Clear" />
+                                 </children>
+                              </HBox>
                            </children>
                         </VBox>
                      </content>
                   </TitledPane>
               </panes>
             </Accordion>
-            <MenuBar fx:id="toolbar">
+            <MenuBar fx:id="toolbar" prefHeight="24.0" prefWidth="600.0">
               <menus>
                 <Menu mnemonicParsing="false" text="Team">
                   <items>
-                    <MenuItem mnemonicParsing="false" text="Close" />
+                    <MenuItem mnemonicParsing="false" text="Join" />
+                        <MenuItem mnemonicParsing="false" text="Create" />
+                        <MenuItem mnemonicParsing="false" text="Leave" />
                   </items>
                 </Menu>
                 <Menu mnemonicParsing="false" text="Events">
@@ -67,11 +94,34 @@
                      <items>
                         <CheckMenuItem fx:id="daytheme" mnemonicParsing="false" onAction="#uncheck1" selected="true" text="Day Theme" />
                         <CheckMenuItem fx:id="nighttheme" mnemonicParsing="false" onAction="#uncheck2" text="Night Theme" />
-                        <CheckMenuItem fx:id="oddtheme" mnemonicParsing="false" onAction="#uncheck3" text="Odd Theme" />
                      </items>
                   </Menu>
               </menus>
             </MenuBar>
+            <HBox prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="1">
+               <children>
+                  <Label alignment="CENTER" prefHeight="28.0" prefWidth="81.0" text="Username:" textAlignment="CENTER">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="usernamevalue" prefHeight="28.0" prefWidth="213.0" text="null" textAlignment="CENTER">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" prefHeight="29.0" prefWidth="50.0" text="Team:" textAlignment="CENTER">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="teamvalue" alignment="BOTTOM_LEFT" layoutX="91.0" layoutY="10.0" prefHeight="28.0" prefWidth="255.0" text="null" textAlignment="CENTER">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
          </children>
       </GridPane>
    </children>
