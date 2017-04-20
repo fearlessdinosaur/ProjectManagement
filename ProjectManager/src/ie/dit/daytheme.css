@@ -2,23 +2,17 @@
 	-fx-font-family: Segoe UI Semibold;
 	-fx-background-color : rgb(255,255,255);
 	-fx-base: rgb(255, 255, 255);
-}
-
-.root{
-	-fx-font-family: Segoe UI Semibold;
-	-fx-background-color : rgb(29,29,29);
-	-fx-base: rgb(29,29,29);
-	-fx-text-fill:  rgb(216, 216, 216);
+	-fx-text-fill:  rgb(29,29,29);
 }
 
 .button{
 	/*-fx-padding: 5 22 5 22;*/
-	-fx-border-color: rgb(226, 226, 226);
+	-fx-border-color: rgb(29,29,29);
 	/*-fx-border-width: 2;*/
 	/*-fx-background-radius: 0;*/
-	-fx-background-color: rgb(29, 29, 29);
+	-fx-background-color: rgb(255,255,255);
 	-fx-font-family: Segoe UI Semibold;
-	-fx-text-fill: rgb(216, 216, 216);
+	-fx-text-fill: rgb(29,29,29);
 	/*-fx-background-insets: 0 0 0 0, 0, 1, 2;*/
 }
 
@@ -41,5 +35,5 @@
 
 .label{
 	-fx-font-family: Segoe UI Semibold;
-	-fx-text-fill: rgb(216, 216, 216);
+	-fx-text-fill: rgb(29,29,29);
 }

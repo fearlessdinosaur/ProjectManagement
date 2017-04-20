@@ -10,6 +10,9 @@ import javafx.event.ActionEvent;
 import javafx.scene.control.Menu;
 import javafx.scene.control.MenuBar;
 import javafx.scene.image.Image;
+import javafx.scene.layout.VBox;
+import javafx.scene.text.Text;
+import javafx.stage.Modality;
 import javafx.stage.Stage;
 import java.io.IOException;
 
@@ -17,6 +20,9 @@ public class managerController {
 
     @FXML
     private MenuBar toolbar;
+
+    @FXML
+    private Menu help;
 
     @FXML
     private Menu settings_menu;
@@ -33,6 +39,19 @@ public class managerController {
     private String daythemecss = getClass().getResource("daytheme.css").toExternalForm();
     private String nightthemecss = getClass().getResource("nighttheme.css").toExternalForm();
     private String oddthemecss = getClass().getResource("nighttheme.css").toExternalForm();
+
+    @FXML
+    void show_help(ActionEvent event) {
+        final Stage dialog = new Stage();
+        Stage stage = (Stage) toolbar.getScene().getWindow();
+        dialog.initModality(Modality.NONE);
+        dialog.initOwner(stage);
+        VBox dialogVbox = new VBox(20);
+        dialogVbox.getChildren().add(new Text("This is a Dialog"));
+        Scene dialogScene = new Scene(dialogVbox, 300, 200);
+        dialog.setScene(dialogScene);
+        dialog.show();
+    }
 
     @FXML
     void uncheck1(ActionEvent event) throws IOException {

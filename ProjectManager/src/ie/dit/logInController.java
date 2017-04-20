@@ -69,7 +69,7 @@ public class logInController {
                 stage.setTitle("Project Manager");
                 stage.show();
             }
-            if(success==null){
+            if(success.equals("1")==true){
                 System.out.println("no");
             }
         }
