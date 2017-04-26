@@ -7,11 +7,6 @@ import java.util.Scanner;
 //import com.csvreader.CsvReader;
 //import com.csvreader.CsvWriter;
 
-import com.csvreader.CsvReader;
-import com.csvreader.CsvWriter;
-
-//import com.csvreader.CsvWriter;
-
 /**
  * Created by David on 06/03/2017.
  */
@@ -83,7 +78,7 @@ public class Main extends Application {
 	private static void csvWriter()
 	{
 		int exists = 0;
-		boolean fileExists = new File("Groupinormation.csv").exists();
+		boolean fileExists = new File("Groupinformation.csv").exists();
 		if(fileExists)
 		{
 			 exists = 1;
