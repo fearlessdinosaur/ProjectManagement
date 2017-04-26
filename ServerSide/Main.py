@@ -2,6 +2,7 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 import simplejson
 import sqlite3
 import urllib
+from random import randint
 #skeleton code found online
 class Server(BaseHTTPRequestHandler):
 
@@ -53,7 +54,8 @@ class Server(BaseHTTPRequestHandler):
             if(output['Code']==1):
                 PostUser(output['name'],output['password'])
             if(output['Code']==2):
-                data=groupt(1, output['name'], 'holdPlace',1)
+                id= randint(100000,999999)
+                data=groupt(id, output['name'], 'holdPlace',1)
             file.close()
             return data
         except:
