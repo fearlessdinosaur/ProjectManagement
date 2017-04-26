@@ -1,5 +1,7 @@
 package ie.dit;
 
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -18,6 +20,7 @@ import javafx.util.StringConverter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.List;
 import java.util.Scanner;
 import com.csvreader.CsvReader;
 import com.csvreader.CsvWriter;
@@ -38,6 +41,10 @@ import static ie.dit.Main.csvReader;
 import static ie.dit.Main.csvWriter;
 
 public class managerController {
+
+
+    @FXML
+    private static ListView<String> listDate;
 
     @FXML
     private DatePicker event_date_pick;
@@ -210,78 +217,24 @@ public class managerController {
         stage.show();
     }
 
-}
+   /* @FXML
+    static void eventCheck(ActionEvent event) {
+        String[] dates = {"jim"};
+        ObservableList<String> data = FXCollections.observableArrayList();
 
-    /*
-    public File getPersonFilePath() {
-        Preferences prefs = Preferences.userNodeForPackage(managerController.class);
-        String filePath = prefs.get("filePath", null);
-        if (filePath != null) {
-            return new File(filePath);
-        } else {
-            return null;
-        }
+        data.clear();
+        data.addAll(dates);
+        listDate.setItems(data);
     }
 
-    public void setPersonFilePath(File file) {
-        Preferences prefs = Preferences.userNodeForPackage(managerController.class);
-        if (file != null) {
-            prefs.put("filePath", file.getPath());
-        } else {
-            prefs.remove("filePath");
-        }
-    }
+    /*void loadDate(){
+        String[] dates = {"jim"};
+        ObservableList<String> data = FXCollections.observableArrayList();
 
-
-    public void loadPersonDataFromFile(File file) {
-        try {
-            JAXBContext context = JAXBContext
-                    .newInstance(PersonListWrapper.class);
-            Unmarshaller um = context.createUnmarshaller();
-
-            // Reading XML from the file and unmarshalling.
-            PersonListWrapper wrapper = (PersonListWrapper) um.unmarshal(file);
-
-            personData.clear();
-            personData.addAll(wrapper.getPersons());
-
-            // Save the file path to the registry.
-            setPersonFilePath(file);
-
-        } catch (Exception e) { // catches ANY exception
-            Alert alert = new Alert(Alert.AlertType.ERROR);
-            alert.setTitle("Error");
-            alert.setHeaderText("Could not load data");
-            alert.setContentText("Could not load data from file:\n" + file.getPath());
-
-            alert.showAndWait();
-        }
-    }
-
-    public void savePersonDataToFile(File file) {
-        try {
-            JAXBContext context = JAXBContext
-                    .newInstance(PersonListWrapper.class);
-            Marshaller m = context.createMarshaller();
-            m.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
-
-            // Wrapping our person data.
-            PersonListWrapper wrapper = new PersonListWrapper();
-            wrapper.setPersons(personData);
-
-            // Marshalling and saving XML to the file.
-            m.marshal(wrapper, file);
-
-            // Save the file path to the registry.
-            setPersonFilePath(file);
-        } catch (Exception e) { // catches ANY exception
-            Alert alert = new Alert(Alert.AlertType.ERROR);
-            alert.setTitle("Error");
-            alert.setHeaderText("Could not save data");
-            alert.setContentText("Could not save data to file:\n" + file.getPath());
-
-            alert.showAndWait();
-        }
+        data.clear();
+        data.addAll(dates);
+        listDate.setItems(data);
     }*/
 
 
+}

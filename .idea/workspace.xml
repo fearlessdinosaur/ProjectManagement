@@ -4,11 +4,10 @@
     <list default="true" id="9704601d-44b7-41d1-b784-b9ebb121280b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/ie/dit/Main.class" afterPath="$PROJECT_DIR$/out/ie/dit/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/ie/dit/managerController.class" afterPath="$PROJECT_DIR$/out/ie/dit/managerController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ProjectManager.iml" afterPath="$PROJECT_DIR$/.idea/ProjectManager.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectManager/src/ie/dit/Main.java" afterPath="$PROJECT_DIR$/ProjectManager/src/ie/dit/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectManager/src/ie/dit/manager.fxml" afterPath="$PROJECT_DIR$/ProjectManager/src/ie/dit/manager.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectManager/src/ie/dit/managerController.java" afterPath="$PROJECT_DIR$/ProjectManager/src/ie/dit/managerController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/ie/dit/manager.fxml" afterPath="$PROJECT_DIR$/out/ie/dit/manager.fxml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,11 +35,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="managerController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="managerController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/managerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-833">
-              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state relative-caret-position="188">
+              <caret line="219" column="5" lean-forward="false" selection-start-line="219" selection-start-column="5" selection-end-line="219" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logInController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/logInController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="50" column="51" lean-forward="false" selection-start-line="50" selection-start-column="51" selection-end-line="50" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -51,7 +62,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -59,7 +72,7 @@
       <file leaf-file-name="signUpController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/signUpController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
+            <state relative-caret-position="427">
               <caret line="51" column="28" lean-forward="true" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
               <folding />
             </state>
@@ -79,14 +92,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state relative-caret-position="-1413">
+              <caret line="41" column="36" lean-forward="true" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1873#1902#0" expanded="true" />
+                <element signature="e#1079#1108#0" expanded="true" />
+                <element signature="e#1989#2018#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -127,18 +141,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="leaveTeamController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/leaveTeamController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-403">
-              <caret line="29" column="12" lean-forward="false" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -165,14 +167,14 @@
         <option value="$PROJECT_DIR$/ProjectManager/src/ie/dit/leaveteam.fxml" />
         <option value="$PROJECT_DIR$/ProjectManager/src/ie/dit/jointeam.fxml" />
         <option value="$PROJECT_DIR$/ProjectManager/src/ie/dit/manager.fxml" />
-        <option value="$PROJECT_DIR$/ProjectManager/src/ie/dit/logInController.java" />
         <option value="$PROJECT_DIR$/ProjectManager/src/ie/dit/signUpController.java" />
         <option value="$PROJECT_DIR$/ProjectManager/src/ie/dit/Client.java" />
         <option value="$PROJECT_DIR$/ProjectManager/src/ie/dit/joinTeamController.java" />
         <option value="$PROJECT_DIR$/ProjectManager/src/ie/dit/leaveTeamController.java" />
         <option value="$PROJECT_DIR$/ProjectManager/src/ie/dit/createTeamController.java" />
-        <option value="$PROJECT_DIR$/ProjectManager/src/ie/dit/managerController.java" />
         <option value="$PROJECT_DIR$/ProjectManager/src/ie/dit/Main.java" />
+        <option value="$PROJECT_DIR$/ProjectManager/src/ie/dit/logInController.java" />
+        <option value="$PROJECT_DIR$/ProjectManager/src/ie/dit/managerController.java" />
       </list>
     </option>
   </component>
@@ -736,11 +738,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32382000" />
+    <option name="totallyTimeSpent" value="36668000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -752,7 +754,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -833,7 +835,8 @@
           <caret line="39" column="10" lean-forward="false" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1873#1902#0" expanded="true" />
+            <element signature="e#1079#1108#0" expanded="true" />
+            <element signature="e#1989#2018#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -900,7 +903,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -929,7 +934,8 @@
           <caret line="39" column="10" lean-forward="false" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1873#1902#0" expanded="true" />
+            <element signature="e#1079#1108#0" expanded="true" />
+            <element signature="e#1989#2018#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -996,7 +1002,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1025,7 +1033,8 @@
           <caret line="39" column="10" lean-forward="false" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1873#1902#0" expanded="true" />
+            <element signature="e#1079#1108#0" expanded="true" />
+            <element signature="e#1989#2018#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1092,7 +1101,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1887">
           <caret line="111" column="34" lean-forward="false" selection-start-line="111" selection-start-column="34" selection-end-line="111" selection-end-column="34" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1163,20 +1174,13 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1873#1902#0" expanded="true" />
+            <element signature="e#1079#1108#0" expanded="true" />
+            <element signature="e#1989#2018#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/Event.java" />
-    <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/logInController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="67" column="29" lean-forward="true" selection-start-line="59" selection-start-column="16" selection-end-line="67" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/jointeam.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
@@ -1246,6 +1250,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/createTeamController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="26" column="39" lean-forward="false" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProjectManager/csvWriter/csvWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/createteam.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
@@ -1257,45 +1279,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/createTeamController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="26" column="39" lean-forward="false" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/signUpController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
+        <state relative-caret-position="427">
           <caret line="51" column="28" lean-forward="true" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProjectManager/csvWriter/csvWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/managerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-833">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state relative-caret-position="-1413">
+          <caret line="41" column="36" lean-forward="true" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1873#1902#0" expanded="true" />
+            <element signature="e#1079#1108#0" expanded="true" />
+            <element signature="e#1989#2018#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/logInController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="50" column="51" lean-forward="false" selection-start-line="50" selection-start-column="51" selection-end-line="50" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/managerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="219" column="5" lean-forward="false" selection-start-line="219" selection-start-column="5" selection-end-line="219" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
