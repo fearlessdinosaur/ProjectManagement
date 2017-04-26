@@ -4,8 +4,8 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
-//import com.csvreader.CsvReader;
-//import com.csvreader.CsvWriter;
+import com.csvreader.CsvReader;
+import com.csvreader.CsvWriter;
 
 /**
  * Created by David on 06/03/2017.
@@ -35,10 +35,9 @@ public class Main extends Application {
     public static void main(String[] args)
     {
         launch(args);
-        //csvWriter();
-        //csvReader();
+        csvReader();
     }
-    /*
+    
     //Skeleton code found online
     @SuppressWarnings("resource")
 	private static void csvReader() {
@@ -75,7 +74,7 @@ public class Main extends Application {
 	}
 	
 	@SuppressWarnings("resource")
-	private static void csvWriter()
+	private static void csvWriter(String eventinfo, String eventname, String eventdate)
 	{
 		int exists = 0;
 		boolean fileExists = new File("Groupinformation.csv").exists();
@@ -109,6 +108,7 @@ public class Main extends Application {
 				System.out.println("Enter a name: ");
 				String name = reader1.nextLine();
 				
+				/*
 				Scanner reader2 = new Scanner(System.in);
 				System.out.println("Enter a date: ");
 				String Date = reader2.nextLine();
@@ -119,14 +119,15 @@ public class Main extends Application {
 				
 				Scanner reader4 = new Scanner(System.in);
 				System.out.println("Enter event info: ");
-				String Eventinfo = reader4.nextLine();
+				String Eventinfo = info
+				*/
 					
 				//Used to write to the csv file
 				usersFile.write(id);
 				usersFile.write(name);
-				usersFile.write(Date);
-				usersFile.write(Eventname);
-				usersFile.write(Eventinfo);
+				usersFile.write(eventdate);
+				usersFile.write(eventname);
+				usersFile.write(eventinfo);
 				usersFile.endRecord();
 				usersFile.close();
 				} 
@@ -136,4 +137,3 @@ public class Main extends Application {
 			}
 		}
 	}
-	*/
