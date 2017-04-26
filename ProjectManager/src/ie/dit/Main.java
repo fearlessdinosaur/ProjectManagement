@@ -1,3 +1,4 @@
+// added comment to commit
 package ie.dit;
 
 import java.io.File;
@@ -36,7 +37,7 @@ public class Main extends Application {
         launch(args);
         csvReader();
     }
-    
+
     //Skeleton code found online
     @SuppressWarnings("resource")
 	public static void csvReader() {
@@ -45,12 +46,12 @@ public class Main extends Application {
 		{
 			CsvReader user = new CsvReader("Groupinformation.csv");
 			user.readHeaders();// Used so the headers are not displayed
-			
+
 			//Used for user input
 			Scanner reader = new Scanner(System.in);
 			System.out.println("Reading file \nEnter a name: ");
 			String input = reader.nextLine();
-			
+
 			while(user.readRecord())
 			{
 				String userId = user.get("id");
@@ -69,9 +70,9 @@ public class Main extends Application {
 		{
 			System.out.println("File cannot be found");
 		}
-		
+
 	}
-	
+
 	@SuppressWarnings("resource")
 	public static void csvWriter(String eventinfo, String eventname, String eventdate)
 	{
@@ -82,10 +83,10 @@ public class Main extends Application {
 			 exists = 1;
 			 System.out.println("File exists");
 		}
-						
+
 		try {
 				CsvWriter usersFile = new CsvWriter(new FileWriter("Groupinformation.csv", true), ',');
-					
+
 				// Used to check if file already exists, if it doesn't it will give the file headers
 				if (exists!=1)
 				{
@@ -97,30 +98,30 @@ public class Main extends Application {
 					usersFile.write("Eventinfo");
 					usersFile.endRecord();
 				}
-				
+
 				//User input
 				Scanner reader = new Scanner(System.in);
 				System.out.println("Enter a id: ");
 				String id = reader.nextLine();
-					
+
 				Scanner reader1 = new Scanner(System.in);
 				System.out.println("Enter a name: ");
 				String name = reader1.nextLine();
-				
+
 				/*
 				Scanner reader2 = new Scanner(System.in);
 				System.out.println("Enter a date: ");
 				String Date = reader2.nextLine();
-				
+
 				Scanner reader3 = new Scanner(System.in);
 				System.out.println("Enter event name: ");
 				String Eventname = reader3.nextLine();
-				
+
 				Scanner reader4 = new Scanner(System.in);
 				System.out.println("Enter event info: ");
 				String Eventinfo = info
 				*/
-					
+
 				//Used to write to the csv file
 				usersFile.write(id);
 				usersFile.write(name);
@@ -129,8 +130,8 @@ public class Main extends Application {
 				usersFile.write(eventinfo);
 				usersFile.endRecord();
 				usersFile.close();
-				} 
-			catch(IOException e) 
+				}
+			catch(IOException e)
 			{
 				System.out.println(e);
 			}
