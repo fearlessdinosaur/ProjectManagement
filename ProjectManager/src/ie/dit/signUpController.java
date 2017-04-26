@@ -48,6 +48,16 @@ public class signUpController {
             //if same, will send to database and create account/record
             try {
                 client.postUser(username, password1);
+
+                Stage stage;
+                Parent root;
+                Image app = new Image(getClass().getResourceAsStream("kingthomas.png"));
+                stage = (Stage) sign_up1.getScene().getWindow();
+                root = FXMLLoader.load(getClass().getResource("manager.fxml"));
+                stage.setScene(new Scene(root));
+                stage.getIcons().add(app);
+                stage.setTitle("Project Manager");
+                stage.show();
             } catch (Exception e) {
 
             }

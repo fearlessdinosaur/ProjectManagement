@@ -59,6 +59,7 @@ public class Client {
         }
 
     }
+
     void postTeam(String team) throws JSONException
     {
         String Tname = team;
@@ -68,11 +69,9 @@ public class Client {
             input.put("Code", 2);
             post(input);
 
-
         } catch (JSONException e) {
             e.printStackTrace();
         }
-
     }
 
     String find(String url) throws JSONException, UnsupportedEncodingException {
