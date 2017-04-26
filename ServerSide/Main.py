@@ -3,7 +3,6 @@ import simplejson
 import sqlite3
 import urllib
 from random import randint
-#skeleton code found online
 class Server(BaseHTTPRequestHandler):
 
     def do_GET(self):
@@ -18,8 +17,9 @@ class Server(BaseHTTPRequestHandler):
         sender = urllib.parse.urlparse(self.path)
 
         input = urllib.parse.parse_qsl(sender[4])
-        data = ""
+        data = "Place"
         length=len(input)
+        print(length)
         if(length==2):
             group1= input[0]
             group2= input[1]
@@ -28,7 +28,12 @@ class Server(BaseHTTPRequestHandler):
             if(item2=='101'):
                 data = GroupJoin(item1)
             if(item2=='102'):
-                data = GetGID(item1)
+                info = GetGID(item1)
+                data=info[0]
+
+            if(item2=='103'):
+                data= GetEvent(item1)
+
         if(length==3):
             print("in login")
             group1= input[0]
@@ -56,7 +61,7 @@ class Server(BaseHTTPRequestHandler):
             if(output['Code']==1):
                 PostUser(output['name'],output['password'])
             if(output['Code']==2):
-                id= randint(100000,999999)
+                id= str(randint(100000,999999))
                 data=groupt(id, output['name'], 'holdPlace',1)
             if(output['Code']==3):
                 data=EventMGR(output['GID'],output['EventInfo'],output['Eventname'],output['Date'])
@@ -104,7 +109,7 @@ def groupt(gId, gName, admin, adminIp):
         cursor = database.cursor()
         print(database)
         cursor.execute('''
-            CREATE TABLE IF NOT EXISTS groups(gId INTEGER,gName TEXT,admin TEXT,adminIp INTEGER,PRIMARY KEY(gId))
+            CREATE TABLE IF NOT EXISTS groups(gId TEXT,gName TEXT,admin TEXT,adminIp INTEGER,PRIMARY KEY(gId))
         ''')
         database.commit()
         cursor.execute('''INSERT INTO groups(gId,gName,admin,adminIp) VALUES(?,?,?,?)''', (gId,gName,admin,adminIp))
@@ -123,7 +128,6 @@ def GroupJoin(gName):
     cursor = database.cursor()
     cursor.execute('''SELECT gId FROM groups WHERE gName = ?''', (gName,))
     group1 = cursor.fetchone()
-    print(group1)
     if not group1 is None:
 
         cursor.execute('INSERT INTO user(groupId) values(?)',(group1))
@@ -142,21 +146,29 @@ def GetGID(gName):
     if not group1 is None:
         return group1
     else:
-        return "1"
+        return '1'
+#doesnt work
+def GetEvent(GID):
+    database = sqlite3.connect('data/database.db')
+    cursor = database.cursor()
+    cursor.execute('''SELECT * FROM events WHERE gId = ?''', (GID))
+    group1 = cursor.fetchone()
+
+# doesnt create database for some reason
 def EventMGR(GID,info,name,date):
     try:
         database = sqlite3.connect('data/database.db')
         cursor = database.cursor()
         print(database)
         cursor.execute('''
-            CREATE TABLE IF NOT EXISTS events(gId INTEGER,name TEXT,date TEXT,info TEXT)
+            CREATE TABLE IF NOT EXISTS events(gId TEXT,name TEXT,date TEXT,info TEXT)
         ''')
         database.commit()
-        cursor.execute('''INSERT INTO groups(gId,name,date,info) VALUES(?,?,?,?)''', (GID,name,date,info))
+        cursor.execute('''INSERT INTO events(gId,name,date,info) VALUES(?,?,?,?)''', (GID,name,date,info))
         database.commit()
-        cursor.execute('''SELECT * FROM groups''')
+        cursor.execute('''SELECT * FROM events''')
         group1 = cursor.fetchone()
-        print(group1[0])
+        print(group1)
     except sqlite3.OperationalError as msg:
         print(msg)
         raise msg
