@@ -22,13 +22,9 @@ public class createTeamController {
     private Label errormessage;
 
     @FXML
-    private Label workmessage;
-
-    @FXML
     void createteam(ActionEvent event) throws IOException, JSONException {
 
         errormessage.setVisible(false);
-        workmessage.setVisible(false);
 
         String team = teamname.getText();
 
@@ -49,5 +45,18 @@ public class createTeamController {
         } catch (Exception e) {
 
         }
+    }
+
+    @FXML
+    void backToMain(ActionEvent event) throws IOException{
+        Stage stage;
+        Parent root;
+        Image app = new Image(getClass().getResourceAsStream("kingthomas.png"));
+        stage = (Stage) teamname.getScene().getWindow();
+        root = FXMLLoader.load(getClass().getResource("manager.fxml"));
+        stage.setScene(new Scene(root));
+        stage.getIcons().add(app);
+        stage.setTitle("Project Manager");
+        stage.show();
     }
 }

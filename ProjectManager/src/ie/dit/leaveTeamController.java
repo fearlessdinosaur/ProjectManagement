@@ -10,6 +10,8 @@ import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
+import java.io.IOException;
+
 public class leaveTeamController {
 
     @FXML
@@ -19,13 +21,9 @@ public class leaveTeamController {
     private TextField teamname;
 
     @FXML
-    private Label workmessage;
-
-    @FXML
     void leaveteam(ActionEvent event) {
         String team = teamname.getText();
 
-        workmessage.setVisible(false);
         errormessage.setVisible(false);
 
         //Client client = new Client();
@@ -57,6 +55,19 @@ public class leaveTeamController {
         } catch (Exception e) {
 
         }
+    }
+
+    @FXML
+    void backToMain(ActionEvent event) throws IOException {
+        Stage stage;
+        Parent root;
+        Image app = new Image(getClass().getResourceAsStream("kingthomas.png"));
+        stage = (Stage) teamname.getScene().getWindow();
+        root = FXMLLoader.load(getClass().getResource("manager.fxml"));
+        stage.setScene(new Scene(root));
+        stage.getIcons().add(app);
+        stage.setTitle("Project Manager");
+        stage.show();
     }
 }
 

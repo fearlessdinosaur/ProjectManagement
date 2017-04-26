@@ -1,31 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.*?>
 <?import javafx.scene.text.*?>
 <?import javafx.scene.control.*?>
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ie.dit.joinTeamController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.0" prefWidth="235.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ie.dit.joinTeamController">
    <children>
-      <VBox alignment="CENTER" layoutX="76.0" prefHeight="250.0" prefWidth="193.0" spacing="10.0">
+      <VBox alignment="CENTER" layoutX="21.0" prefHeight="250.0" prefWidth="193.0" spacing="10.0">
          <children>
             <Label alignment="CENTER" prefHeight="43.0" prefWidth="203.0" text="Join a Team!" textAlignment="CENTER">
                <font>
-                  <Font size="20.0" />
+                  <Font size="28.0" />
                </font>
             </Label>
-            <TextField fx:id="teamname" promptText="Enter team name here" />
+            <TextField fx:id="teamname" prefHeight="31.0" prefWidth="193.0" promptText="Enter team name here" />
+            <HBox alignment="CENTER" prefHeight="46.0" prefWidth="193.0" spacing="10.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#jointeam" prefHeight="37.0" prefWidth="57.0" text="Join">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="backButton" mnemonicParsing="false" onAction="#backToMain" prefHeight="37.0" prefWidth="60.0" text="Back">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+               </children>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </HBox>
             <Label fx:id="errormessage" text="Sorry this team doesnt exist!" textFill="RED" visible="false">
                <font>
                   <Font size="14.0" />
                </font>
             </Label>
-            <Button mnemonicParsing="false" onAction="#jointeam" text="Join">
-               <font>
-                  <Font size="16.0" />
-               </font>
-            </Button>
-            <Label fx:id="workmessage" prefHeight="19.0" prefWidth="197.0" text="You've joined this team successfully" textFill="#11ff00" visible="false" />
          </children>
       </VBox>
    </children>

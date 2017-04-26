@@ -73,6 +73,15 @@ public class managerController {
         String name = event_name.getText();
         LocalDate date = event_date_pick.getValue();
 
+        /*Client client = new Client();
+
+        try {
+            client.postEvent();
+        }
+        catch(Exception e){
+        }
+         */
+
     }
 
     @FXML

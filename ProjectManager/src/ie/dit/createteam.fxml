@@ -5,9 +5,9 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="245.0" prefWidth="365.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ie.dit.createTeamController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="245.0" prefWidth="303.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ie.dit.createTeamController">
    <children>
-      <VBox alignment="CENTER" layoutX="54.0" layoutY="27.0" prefHeight="300.0" prefWidth="285.0" spacing="10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="54.0" AnchorPane.rightAnchor="61.0" AnchorPane.topAnchor="0.0">
+      <VBox alignment="CENTER" layoutX="28.0" prefHeight="245.0" prefWidth="247.0" spacing="10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="28.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0">
          <children>
             <Label alignment="CENTER" prefHeight="43.0" prefWidth="240.0" text="Please Enter a Team Name" textAlignment="CENTER">
                <font>
@@ -19,16 +19,20 @@
                <font>
                   <Font size="16.0" />
                </font></Label>
-            <Button mnemonicParsing="false" onAction="#createteam" text="Create">
-               <font>
-                  <Font size="16.0" />
-               </font>
-            </Button>
-            <Label fx:id="workmessage" text="Team created!" textFill="#06da06" visible="false">
-               <font>
-                  <Font size="16.0" />
-               </font>
-            </Label>
+            <HBox alignment="CENTER" prefHeight="42.0" prefWidth="250.0" spacing="10.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#createteam" text="Create">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#backToMain" prefHeight="37.0" prefWidth="76.0" text="Back">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
          </children>
       </VBox>
    </children>
