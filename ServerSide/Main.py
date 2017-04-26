@@ -17,19 +17,26 @@ class Server(BaseHTTPRequestHandler):
         sender = urllib.parse.urlparse(self.path)
 
         input = urllib.parse.parse_qsl(sender[4])
-        group1= input[0]
-        group2= input[1]
-        group3= input[2]
-        item1=group1[1]
-        item2=group2[1]
-        passW=group3[1]
         data = ""
-        if(passW=='100'):
-            data=Login(item1,item2)
-        if(passW == '101'):
-            data=GrabGroupt(item1)
+        length=len(input)
+        if(length==2):
+            group1= input[0]
+            group2= input[1]
+            item1=group1[1]
+            item2=group2[1]
+            if(item2=='101'):
+                data = GrabGroupt(item1)
+        if(length==3):
+            print("in login")
+            group1= input[0]
+            group2= input[1]
+            group3= input[2]
+            item1=group1[1]
+            item2=group2[1]
+            passW=group3[1]
+            if(passW == '100'):
+                data = Login(item1, item2)
 
-        print(data)
         self.wfile.write(bytes(data, 'UTF-8'))
         return data
 
@@ -43,11 +50,10 @@ class Server(BaseHTTPRequestHandler):
             self.end_headers()
             content_length = int(self.headers['Content-Length'])
             output = simplejson.loads(self.rfile.read(content_length))
-            print(output['Code'])
             if(output['Code']==1):
                 PostUser(output['name'],output['password'])
             if(output['Code']==2):
-                data=groupt(1,output['name'],'holdPlace',1)
+                data=groupt(1, output['name'], 'holdPlace',1)
             file.close()
             return data
         except:
@@ -57,7 +63,6 @@ def PostUser(name,password):
 
     try:
         database = sqlite3.connect('data/database.db')
-        print(database)
         cursor = database.cursor()
         cursor.execute('''
             CREATE TABLE if NOT EXISTS user(name TEXT,password TEXT,id INTEGER,groupId INTEGER)
@@ -111,9 +116,16 @@ def GrabGroupt(gName):
     database = sqlite3.connect('data/database.db')
     cursor = database.cursor()
     cursor.execute('''SELECT gId FROM groups WHERE gName = ?''', (gName,))
-    group1 = ""
     group1 = cursor.fetchone()
-    return group1[0]
+    print(group1)
+    if not group1 is None:
+
+        cursor.execute('INSERT INTO user(groupId) values(?)',(group1))
+        database.commit()
+        print("yaaaas")
+        return '0'
+    else:
+        return "1"
     
 
 
