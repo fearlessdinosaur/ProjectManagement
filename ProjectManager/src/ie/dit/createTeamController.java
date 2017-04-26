@@ -24,8 +24,6 @@ public class createTeamController {
     @FXML
     void createteam(ActionEvent event) throws IOException, JSONException {
 
-        errormessage.setVisible(false);
-
         String team = teamname.getText();
 
         Client client = new Client();
