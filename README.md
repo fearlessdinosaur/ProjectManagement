@@ -1,6 +1,9 @@
 # ProjectManagement
 Project Management Software developed for OOP Assignment 3
 Students on team were David Craig Fox, Thomas Cronin and Lauren Keenan Brennan
+Languages: Python,Java,Sql (pc)
+
+
 
 We created a Project Manager Softeware. Users would either login or sign up and then be brought to the main page. Users are then able to create and join a team, create events and then view them. We wanted to create an application that could be useful to anyone taking part in a project, whether it be in a group or by themselves.
 
@@ -16,3 +19,6 @@ When you run the file, you can either login if you already have an account or el
 
 server: 
 to run the server you must go into the server code (main.py in the serverside folder) and change the ip to your laptops ip (line 181). Leave the socket alone. Then go into the client class of the java code (client.java in the ie.dit package) and change the ip adresses in lines: 33,124,141,149 and 157 (apologies for this,this is due to the server being hosted locally on the laptop)
+
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/https://youtu.be/CV21OkYQp-A/0.jpg)](https://youtu.be/CV21OkYQp-A "Video Title")
+https://youtu.be/CV21OkYQp-A
