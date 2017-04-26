@@ -14,7 +14,13 @@ import javafx.scene.layout.VBox;
 import javafx.scene.text.Text;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
-
+import javafx.util.StringConverter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Scanner;
+import com.csvreader.CsvReader;
+import com.csvreader.CsvWriter;
 import javax.annotation.Resources;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.Marshaller;
@@ -22,9 +28,14 @@ import javax.xml.bind.Unmarshaller;
 import java.io.File;
 import java.io.IOException;
 import java.net.URL;
+import java.text.SimpleDateFormat;
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.Date;
 import java.util.prefs.Preferences;
+
+import static ie.dit.Main.csvReader;
+import static ie.dit.Main.csvWriter;
 
 public class managerController {
 
@@ -68,10 +79,19 @@ public class managerController {
     private String nightthemecss = getClass().getResource("nighttheme.css").toExternalForm();
 
     @FXML
-    void save_event(ActionEvent event) {
-        String info = event_info.getText();
-        String name = event_name.getText();
-        LocalDate date = event_date_pick.getValue();
+    void save_event(ActionEvent event) throws IOException{
+
+        //converts Date to String
+        LocalDate eventdate = event_date_pick.getValue();
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd LLLL yyyy");
+        String formattedString = eventdate.format(formatter);
+        String eventinfo = event_info.getText();
+        String eventname = event_name.getText();
+
+        System.out.println(formattedString);
+
+        csvWriter(eventinfo, eventname, formattedString);
+        csvReader();
 
         /*Client client = new Client();
 
