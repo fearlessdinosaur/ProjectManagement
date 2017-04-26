@@ -28,7 +28,7 @@ public class Client {
 
 
         HttpClient post = HttpClientBuilder.create().build();
-        HttpPost target = new HttpPost("http://192.168.192.46:8082");
+        HttpPost target = new HttpPost("http://147.252.137.57:8082");
         try {
 
             StringEntity entity = new StringEntity(String.valueOf(user), ContentType.APPLICATION_JSON);
@@ -103,7 +103,7 @@ public class Client {
     String getUser(String name, String pass) throws JSONException, UnsupportedEncodingException {
         String info="";
         int code = 100;
-        String url = "http://192.168.192.46:8082?name=" + name + "&pass=" + pass + "&code=" + code;
+        String url = "http://147.252.137.57:8082?name=" + name + "&pass=" + pass + "&code=" + code;
         try {
             info = find(url);
             System.out.println(info);
@@ -117,10 +117,10 @@ public class Client {
         }
     }
 
-    String getTeam(String TeamName, String admin) throws JSONException, UnsupportedEncodingException {
+    String getTeam(String TeamName) throws JSONException, UnsupportedEncodingException {
         String info;
         int code = 101;
-        String url = "http://192.168.192.46:8082?Teamname=" + TeamName + "&pass=" + pass + "&code=" + code;
+        String url = "http://147.252.137.57:8082?Teamname=" + TeamName+ "&code=" + code;
         info=find(url);
         return info;
     }
