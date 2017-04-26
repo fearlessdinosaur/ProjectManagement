@@ -136,6 +136,51 @@ public class managerController {
 
     }
 
+    @FXML
+    void jointeam(ActionEvent event) throws IOException {
+        Stage stage;
+        Parent root = FXMLLoader.load(getClass().getResource("jointeam.fxml"));
+        Image app = new Image(getClass().getResourceAsStream("kingthomas.png"));
+        stage = (Stage) toolbar.getScene().getWindow();
+        //stage.initModality(Modality.NONE);
+        Scene scene = new Scene(root);
+        scene.getStylesheets().add("ie/dit/daytheme.css");
+        stage.setScene(scene);
+        stage.getIcons().add(app);
+        stage.setTitle("Project Manager");
+        stage.show();
+    }
+
+    @FXML
+    void createteam(ActionEvent event) throws IOException {
+        Stage stage;
+        Parent root = FXMLLoader.load(getClass().getResource("createteam.fxml"));
+        Image app = new Image(getClass().getResourceAsStream("kingthomas.png"));
+        stage = (Stage) toolbar.getScene().getWindow();
+        Scene scene = new Scene(root);
+        scene.getStylesheets().add("ie/dit/daytheme.css");
+        //stage.initModality(Modality.NONE);
+        stage.setScene(scene);
+        stage.getIcons().add(app);
+        stage.setTitle("Project Manager");
+        stage.show();
+    }
+
+    @FXML
+    void leaveteam(ActionEvent event) throws IOException {
+        Stage stage;
+        Parent root = FXMLLoader.load(getClass().getResource("leaveteam.fxml"));
+        Image app = new Image(getClass().getResourceAsStream("kingthomas.png"));
+        stage = (Stage) toolbar.getScene().getWindow();
+        Scene scene = new Scene(root);
+        scene.getStylesheets().add("ie/dit/daytheme.css");
+        stage.initModality(Modality.NONE);
+        stage.setScene(scene);
+        stage.getIcons().add(app);
+        stage.setTitle("Project Manager");
+        stage.show();
+    }
+
 }
 
     /*

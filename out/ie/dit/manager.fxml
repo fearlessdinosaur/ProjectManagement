@@ -75,9 +75,9 @@
               <menus>
                 <Menu mnemonicParsing="false" text="Team">
                   <items>
-                    <MenuItem mnemonicParsing="false" text="Join" />
-                        <MenuItem mnemonicParsing="false" text="Create" />
-                        <MenuItem mnemonicParsing="false" text="Leave" />
+                    <MenuItem mnemonicParsing="false" onAction="#jointeam" text="Join" />
+                        <MenuItem mnemonicParsing="false" onAction="#createteam" text="Create" />
+                        <MenuItem mnemonicParsing="false" onAction="#leaveteam" text="Leave" />
                   </items>
                 </Menu>
                 <Menu mnemonicParsing="false" text="Events">
@@ -94,7 +94,6 @@
                      <items>
                         <CheckMenuItem fx:id="daytheme" mnemonicParsing="false" onAction="#uncheck1" selected="true" text="Day Theme" />
                         <CheckMenuItem fx:id="nighttheme" mnemonicParsing="false" onAction="#uncheck2" text="Night Theme" />
-                        <CheckMenuItem fx:id="oddtheme" mnemonicParsing="false" onAction="#uncheck3" text="Odd Theme" />
                      </items>
                   </Menu>
               </menus>
@@ -111,7 +110,7 @@
                         <Font size="16.0" />
                      </font>
                   </Label>
-                  <Label alignment="CENTER" prefHeight="29.0" prefWidth="50.0" text="Team:" textAlignment="CENTER">
+                  <Label alignment="CENTER" prefHeight="35.0" prefWidth="50.0" text="Team:" textAlignment="CENTER">
                      <font>
                         <Font size="16.0" />
                      </font>

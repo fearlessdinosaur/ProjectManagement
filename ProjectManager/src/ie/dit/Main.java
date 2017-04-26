@@ -4,10 +4,10 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
-import com.csvreader.CsvReader;
-import com.csvreader.CsvWriter;
+//import com.csvreader.CsvReader;
+//import com.csvreader.CsvWriter;
 
-import com.csvreader.CsvWriter;
+//import com.csvreader.CsvWriter;
 
 /**
  * Created by David on 06/03/2017.
@@ -37,10 +37,10 @@ public class Main extends Application {
     public static void main(String[] args)
     {
         launch(args);
-        csvWriter();
+        //csvWriter();
     }
     
-    private static void csvWriter()
+    /*private static void csvWriter()
 	{
 		int exists = 0;
 		boolean fileExists = new File("GroupInfo.csv").exists();
@@ -99,6 +99,6 @@ public class Main extends Application {
 			{
 				System.out.println(e);
 			}
-		}
+		}*/
 
 }

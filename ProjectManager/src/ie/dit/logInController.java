@@ -15,9 +15,6 @@ import java.io.IOException;
 
 public class logInController {
 
-    public static String username;
-    public static String password;
-
     @FXML
     private Button sign_up;
 
@@ -50,8 +47,8 @@ public class logInController {
     //will check database to see if the username and password exist together
     void log_in_event(ActionEvent event) throws IOException{
 
-        username = username_check.getText();
-        password = password_check.getText();
+        String username = username_check.getText();
+        String password = password_check.getText();
 
         Client client = new Client();
         try
@@ -71,7 +68,7 @@ public class logInController {
                 stage.show();
             }
             if(success.equals("1")==true){
-                System.out.println("no");
+              System.out.println("no");
             }
         }
         catch(Exception e)

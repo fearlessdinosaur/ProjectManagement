@@ -9,32 +9,39 @@ import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
 import javafx.stage.Stage;
-import org.json.JSONException;
 
-import java.io.IOException;
-
-public class createTeamController {
-
-    @FXML
-    private TextField teamname;
+public class joinTeamController {
 
     @FXML
     private Label errormessage;
 
     @FXML
+    private TextField teamname;
+
+    @FXML
     private Label workmessage;
 
     @FXML
-    void createteam(ActionEvent event) throws IOException, JSONException {
-
-        errormessage.setVisible(false);
-        workmessage.setVisible(false);
-
+    void jointeam(ActionEvent event) {
         String team = teamname.getText();
+
+        workmessage.setVisible(false);
+        errormessage.setVisible(false);
 
         Client client = new Client();
         try {
-            client.postTeam(team);
+            String success = client.getTeam(team);
+
+            if (success.equals("0") == true) {
+                System.out.println("it werks");
+
+                workmessage.setVisible(true);
+            }
+            if (success.equals("1") == true) {
+                System.out.println("no");
+
+                errormessage.setVisible(true);
+            }
 
             Stage stage;
             Parent root;
@@ -50,4 +57,5 @@ public class createTeamController {
 
         }
     }
+
 }
