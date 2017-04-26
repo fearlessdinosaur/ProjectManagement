@@ -2,13 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9704601d-44b7-41d1-b784-b9ebb121280b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/ie/dit/Main.class" afterPath="$PROJECT_DIR$/out/ie/dit/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/ie/dit/managerController.class" afterPath="$PROJECT_DIR$/out/ie/dit/managerController.class" />
+<<<<<<< Updated upstream
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ProjectManager.iml" afterPath="$PROJECT_DIR$/.idea/ProjectManager.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectManager/src/ie/dit/Main.java" afterPath="$PROJECT_DIR$/ProjectManager/src/ie/dit/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectManager/src/ie/dit/manager.fxml" afterPath="$PROJECT_DIR$/ProjectManager/src/ie/dit/manager.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectManager/src/ie/dit/managerController.java" afterPath="$PROJECT_DIR$/ProjectManager/src/ie/dit/managerController.java" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectManager/src/ie/dit/managerController.java" afterPath="$PROJECT_DIR$/ProjectManager/src/ie/dit/managerController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectManager/src/ie/dit/manager.fxml" afterPath="$PROJECT_DIR$/ProjectManager/src/ie/dit/manager.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectManager/src/ie/dit/Main.java" afterPath="$PROJECT_DIR$/ProjectManager/src/ie/dit/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/ie/dit/Main.class" afterPath="$PROJECT_DIR$/out/ie/dit/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ProjectManager.iml" afterPath="$PROJECT_DIR$/.idea/ProjectManager.iml" />
+>>>>>>> Stashed changes
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,7 +47,11 @@
       <file leaf-file-name="managerController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/managerController.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="-833">
+=======
+            <state relative-caret-position="612">
+>>>>>>> Stashed changes
               <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding />
             </state>
@@ -59,8 +71,13 @@
       <file leaf-file-name="signUpController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/signUpController.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="116">
               <caret line="51" column="28" lean-forward="true" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+=======
+            <state relative-caret-position="714">
+              <caret line="51" column="28" lean-forward="false" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+>>>>>>> Stashed changes
               <folding />
             </state>
           </provider>
@@ -83,10 +100,16 @@
         <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="63">
+<<<<<<< Updated upstream
               <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1873#1902#0" expanded="true" />
+=======
+              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+>>>>>>> Stashed changes
               </folding>
             </state>
           </provider>
@@ -95,7 +118,7 @@
       <file leaf-file-name="createTeamController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/createTeamController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
+            <state relative-caret-position="255">
               <caret line="26" column="39" lean-forward="false" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
               <folding />
             </state>
@@ -118,7 +141,7 @@
       <file leaf-file-name="joinTeamController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/joinTeamController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
+            <state relative-caret-position="1241">
               <caret line="73" column="5" lean-forward="false" selection-start-line="63" selection-start-column="39" selection-end-line="73" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -130,7 +153,11 @@
       <file leaf-file-name="leaveTeamController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/leaveTeamController.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="-403">
+=======
+            <state relative-caret-position="323">
+>>>>>>> Stashed changes
               <caret line="29" column="12" lean-forward="false" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -732,11 +759,16 @@
       <workItem from="1493054014936" duration="594000" />
       <workItem from="1493066005353" duration="1183000" />
       <workItem from="1493196576437" duration="8474000" />
+      <workItem from="1493225365163" duration="4000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="32382000" />
+=======
+    <option name="totallyTimeSpent" value="32386000" />
+>>>>>>> Stashed changes
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -745,14 +777,17 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+<<<<<<< Updated upstream
       <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+>>>>>>> Stashed changes
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -769,6 +804,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -833,7 +869,10 @@
           <caret line="39" column="10" lean-forward="false" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
+<<<<<<< Updated upstream
             <element signature="e#1873#1902#0" expanded="true" />
+=======
+>>>>>>> Stashed changes
           </folding>
         </state>
       </provider>
@@ -929,7 +968,10 @@
           <caret line="39" column="10" lean-forward="false" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
+<<<<<<< Updated upstream
             <element signature="e#1873#1902#0" expanded="true" />
+=======
+>>>>>>> Stashed changes
           </folding>
         </state>
       </provider>
@@ -1025,7 +1067,10 @@
           <caret line="39" column="10" lean-forward="false" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
+<<<<<<< Updated upstream
             <element signature="e#1873#1902#0" expanded="true" />
+=======
+>>>>>>> Stashed changes
           </folding>
         </state>
       </provider>
@@ -1163,7 +1208,10 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+<<<<<<< Updated upstream
             <element signature="e#1873#1902#0" expanded="true" />
+=======
+>>>>>>> Stashed changes
           </folding>
         </state>
       </provider>
@@ -1206,7 +1254,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/leaveTeamController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-403">
+        <state relative-caret-position="323">
           <caret line="29" column="12" lean-forward="false" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1227,7 +1275,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/joinTeamController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
+        <state relative-caret-position="1241">
           <caret line="73" column="5" lean-forward="false" selection-start-line="63" selection-start-column="39" selection-end-line="73" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1258,6 +1306,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/createTeamController.java">
+<<<<<<< Updated upstream
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="103">
           <caret line="26" column="39" lean-forward="false" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
@@ -1269,21 +1318,52 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
           <caret line="51" column="28" lean-forward="true" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+=======
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="26" column="39" lean-forward="false" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+>>>>>>> Stashed changes
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/ProjectManager/csvWriter/csvWriter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/signUpController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="51" column="28" lean-forward="false" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+>>>>>>> Stashed changes
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/managerController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-833">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/ProjectManager/csvWriter/csvWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> Stashed changes
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
+        <state relative-caret-position="63">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+=======
+        <state relative-caret-position="612">
           <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding />
         </state>
@@ -1292,7 +1372,8 @@
     <entry file="file://$PROJECT_DIR$/ProjectManager/src/ie/dit/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+>>>>>>> Stashed changes
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1873#1902#0" expanded="true" />
