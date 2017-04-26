@@ -26,7 +26,9 @@ class Server(BaseHTTPRequestHandler):
             item1=group1[1]
             item2=group2[1]
             if(item2=='101'):
-                data = GrabGroupt(item1)
+                data = GroupJoin(item1)
+            if(item2=='102'):
+                data = GetGID(item1)
         if(length==3):
             print("in login")
             group1= input[0]
@@ -56,6 +58,8 @@ class Server(BaseHTTPRequestHandler):
             if(output['Code']==2):
                 id= randint(100000,999999)
                 data=groupt(id, output['name'], 'holdPlace',1)
+            if(output['Code']==3):
+                data=EventMGR(output['GID'],output['EventInfo'],output['Eventname'],output['Date'])
             file.close()
             return data
         except:
@@ -114,7 +118,7 @@ def groupt(gId, gName, admin, adminIp):
     finally:
         database.close()
 
-def GrabGroupt(gName):
+def GroupJoin(gName):
     database = sqlite3.connect('data/database.db')
     cursor = database.cursor()
     cursor.execute('''SELECT gId FROM groups WHERE gName = ?''', (gName,))
@@ -129,7 +133,35 @@ def GrabGroupt(gName):
     else:
         return "1"
     
-
+def GetGID(gName):
+    database = sqlite3.connect('data/database.db')
+    cursor = database.cursor()
+    cursor.execute('''SELECT gId FROM groups WHERE gName = ?''', (gName,))
+    group1 = cursor.fetchone()
+    print(group1)
+    if not group1 is None:
+        return group1
+    else:
+        return "1"
+def EventMGR(GID,info,name,date):
+    try:
+        database = sqlite3.connect('data/database.db')
+        cursor = database.cursor()
+        print(database)
+        cursor.execute('''
+            CREATE TABLE IF NOT EXISTS events(gId INTEGER,name TEXT,date TEXT,info TEXT)
+        ''')
+        database.commit()
+        cursor.execute('''INSERT INTO groups(gId,name,date,info) VALUES(?,?,?,?)''', (GID,name,date,info))
+        database.commit()
+        cursor.execute('''SELECT * FROM groups''')
+        group1 = cursor.fetchone()
+        print(group1[0])
+    except sqlite3.OperationalError as msg:
+        print(msg)
+        raise msg
+    finally:
+        database.close()
 
 def run():
     print('starting server...')

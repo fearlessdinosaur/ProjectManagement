@@ -73,6 +73,23 @@ public class Client {
             e.printStackTrace();
         }
     }
+    void postEvent(int GID,String EventInfo,String EventName,String Date) throws JSONException
+    {
+        try {
+
+            JSONObject input = new JSONObject();
+            input.put("GID",GID);
+            input.put("Eventinfo",EventInfo);
+            input.put("EventName", EventName);
+            input.put("Date",Date);
+            input.put("Code",3);
+            post(input);
+
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+    }
+
 
     String find(String url) throws JSONException, UnsupportedEncodingException {
 
@@ -123,6 +140,23 @@ public class Client {
         info=find(url);
         return info;
     }
+    String getGID(String TeamName) throws JSONException, UnsupportedEncodingException
+    {
+        String info;
+        int code = 102;
+        String url = "http://147.252.137.57:8082?Teamname=" + TeamName+ "&code=" + code;
+        info=find(url);
+        return info;
+    }
+    String getEvents(int GID) throws JSONException, UnsupportedEncodingException
+    {
+        String info;
+        int code = 103;
+        String url = "http://147.252.137.57:8082?GID=" + GID+ "&code=" + code;
+        info=find(url);
+        return info;
+    }
+
 
 }
 

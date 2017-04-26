@@ -39,7 +39,7 @@ public class Main extends Application {
     
     //Skeleton code found online
     @SuppressWarnings("resource")
-	private static void csvReader() {
+	public static void csvReader() {
 		// TODO Auto-generated method stub
 		try
 		{
@@ -73,7 +73,7 @@ public class Main extends Application {
 	}
 	
 	@SuppressWarnings("resource")
-	private static void csvWriter(String eventinfo, String eventname, String eventdate)
+	public static void csvWriter(String eventinfo, String eventname, String eventdate)
 	{
 		int exists = 0;
 		boolean fileExists = new File("Groupinformation.csv").exists();
