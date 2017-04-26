@@ -20,5 +20,5 @@ When you run the file, you can either login if you already have an account or el
 server: 
 to run the server you must go into the server code (main.py in the serverside folder) and change the ip to your laptops ip (line 181). Leave the socket alone. Then go into the client class of the java code (client.java in the ie.dit package) and change the ip adresses in lines: 33,124,141,149 and 157 (apologies for this,this is due to the server being hosted locally on the laptop)
 
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/https://youtu.be/CV21OkYQp-A/0.jpg)](https://youtu.be/CV21OkYQp-A "Video Title")
+[![IMAGE ALT TEXT](https://youtu.be/CV21OkYQp-A/0.jpg)](https://youtu.be/CV21OkYQp-A "Video Title")
 https://youtu.be/CV21OkYQp-A
