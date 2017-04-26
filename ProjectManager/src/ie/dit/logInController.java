@@ -55,7 +55,6 @@ public class logInController {
         {
             String success = client.getUser(username,password);
             if(success.equals("0")==true) {
-                System.out.println("it werks");
 
                 Stage stage;
                 Parent root;

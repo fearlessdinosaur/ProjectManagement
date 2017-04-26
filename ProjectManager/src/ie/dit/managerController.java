@@ -24,6 +24,8 @@ import java.util.List;
 import java.util.Scanner;
 import com.csvreader.CsvReader;
 import com.csvreader.CsvWriter;
+import org.json.JSONException;
+
 import javax.annotation.Resources;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.Marshaller;
@@ -44,7 +46,7 @@ public class managerController {
 
 
     @FXML
-    private static ListView<String> listDate;
+    private ListView<String> listDate;
 
     @FXML
     private DatePicker event_date_pick;
@@ -82,11 +84,14 @@ public class managerController {
     @FXML
     private CheckMenuItem nighttheme;
 
+    @FXML
+    private Button checkEvent;
+
     private String daythemecss = getClass().getResource("daytheme.css").toExternalForm();
     private String nightthemecss = getClass().getResource("nighttheme.css").toExternalForm();
 
     @FXML
-    void save_event(ActionEvent event) throws IOException{
+    void save_event(ActionEvent event) throws IOException, JSONException {
 
         //converts Date to String
         LocalDate eventdate = event_date_pick.getValue();
@@ -100,15 +105,20 @@ public class managerController {
         csvWriter(eventinfo, eventname, formattedString);
         csvReader();
 
-        /*Client client = new Client();
+        Client client = new Client();
 
         try {
-            client.postEvent();
-        }
-        catch(Exception e){
-        }
-         */
+            Main.gid = client.getGID(Main.teamname);
+            System.out.println(Main.gid);
+            client.postEvent(Main.gid,eventinfo,eventname,formattedString);
 
+            event_info.clear();
+            event_name.clear();
+            event_date_pick.setValue(null);
+            event_date_pick.getEditor().clear();
+        }
+        catch(Exception e) {
+        }
     }
 
     @FXML
@@ -217,24 +227,15 @@ public class managerController {
         stage.show();
     }
 
-   /* @FXML
-    static void eventCheck(ActionEvent event) {
-        String[] dates = {"jim"};
-        ObservableList<String> data = FXCollections.observableArrayList();
+   @FXML
+    void eventCheck(ActionEvent event) {
+       String date = csvReader();
 
-        data.clear();
-        data.addAll(dates);
-        listDate.setItems(data);
+       String[] dates = {date};
+       ObservableList<String> data = FXCollections.observableArrayList();
+
+       data.clear();
+       data.addAll(dates);
+       listDate.setItems(data);
     }
-
-    /*void loadDate(){
-        String[] dates = {"jim"};
-        ObservableList<String> data = FXCollections.observableArrayList();
-
-        data.clear();
-        data.addAll(dates);
-        listDate.setItems(data);
-    }*/
-
-
 }

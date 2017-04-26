@@ -28,11 +28,11 @@ public class joinTeamController {
     void jointeam(ActionEvent event) {
         String team = teamname.getText();
 
-        errormessage.setVisible(false);
-
         Client client = new Client();
         try {
             String success = client.getTeam(team);
+            Main.teamname = team;
+            System.out.println(Main.teamname);
 
             if (success.equals("0") == true) {
                 System.out.println("it werks");

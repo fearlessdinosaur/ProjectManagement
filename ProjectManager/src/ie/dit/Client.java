@@ -22,6 +22,8 @@ public class Client {
 
     String name;
     String pass;
+    String User;
+    String Team;
 
 
     void post(JSONObject user) throws JSONException {
@@ -73,7 +75,7 @@ public class Client {
             e.printStackTrace();
         }
     }
-    void postEvent(int GID,String EventInfo,String EventName,String Date) throws JSONException
+    void postEvent(String GID,String EventInfo,String EventName,String Date) throws JSONException
     {
         try {
 
@@ -148,7 +150,7 @@ public class Client {
         info=find(url);
         return info;
     }
-    String getEvents(int GID) throws JSONException, UnsupportedEncodingException
+    String getEvents(String GID) throws JSONException, UnsupportedEncodingException
     {
         String info;
         int code = 103;

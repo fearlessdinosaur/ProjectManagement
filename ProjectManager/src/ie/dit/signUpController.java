@@ -33,14 +33,13 @@ public class signUpController {
 
     @FXML
     //creates new user account
-    void sign_up1_event(ActionEvent event){
+    String sign_up1_event(ActionEvent event){
         String username;
         String password1, password2;
 
         username = username_check.getText();
         password1 = password_check1.getText();
         password2 = password_check2.getText();
-
         Client client = new Client();
 
         //checks if the 2 inputted passwords are the same
@@ -48,7 +47,7 @@ public class signUpController {
             //if same, will send to database and create account/record
             try {
                 client.postUser(username, password1);
-
+                Main.name=username;
                 Stage stage;
                 Parent root;
                 Image app = new Image(getClass().getResourceAsStream("kingthomas.png"));
@@ -61,10 +60,12 @@ public class signUpController {
             } catch (Exception e) {
 
             }
+            return username;
         }
         else{
             //if not same, will show error message
             samepassword.setVisible(true);
+            return null;
         }
     }
 
@@ -84,5 +85,6 @@ public class signUpController {
         stage.show();
 
     }
+
 
 }

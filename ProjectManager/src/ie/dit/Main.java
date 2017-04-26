@@ -18,10 +18,15 @@ import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
+
+import javax.xml.bind.annotation.XmlElementDecl;
 public class Main extends Application {
+    public static String name;
+    public static String teamname;
+    public static String gid;
 
     @Override
-    public void start(Stage primaryStage) throws Exception {
+    public void start(Stage primaryStage) throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource("login.fxml"));
         Scene scene = new Scene(root);
         scene.getStylesheets().add("ie/dit/daytheme.css");
@@ -34,12 +39,12 @@ public class Main extends Application {
 
     public static void main(String[] args) {
         launch(args);
-        csvReader();
     }
+
     
     //Skeleton code found online
     @SuppressWarnings("resource")
-	public static void csvReader() {
+	public static String csvReader() {
 		// TODO Auto-generated method stub
 		try
 		{
@@ -61,6 +66,8 @@ public class Main extends Application {
 				if(input.equals(name))// Used to compare strings
 				{
 					System.out.println(userId + "," + name + "," + Date + "," + Eventname + "," + Eventinfo);
+					System.out.println(Date);
+					return Date;
 				}
 			}
 			user.close();
@@ -69,7 +76,7 @@ public class Main extends Application {
 		{
 			System.out.println("File cannot be found");
 		}
-		
+		return null;
 	}
 	
 	@SuppressWarnings("resource")
